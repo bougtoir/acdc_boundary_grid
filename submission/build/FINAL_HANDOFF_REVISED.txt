@@ -1,0 +1,118 @@
+FINAL HANDOFF — REVISED TSG PACKAGE
+
+Target journal: IEEE Transactions on Smart Grid
+Fallbacks: IEEE Transactions on Power Delivery; International Journal of Electrical Power & Energy Systems
+Final title: Attributing AC/DC Boundary Value in Active Low-Voltage Distribution Planning
+Build-source Git commit: e8e77b70c954500fd3f75fc870da2675b17d2b0c
+Acceptance status: Technical gates A–S PASS; Gate T HUMAN METADATA PENDING.
+
+Genuine contribution:
+A matched architecture-attribution framework that estimates the marginal value of
+permitting DC after separating conductor and topology redesign, with an endogenous
+AC/DC boundary and all-AC retained as a feasible outcome. The contribution is conditional
+mechanism attribution, not universal DC superiority or a deployment recommendation.
+
+Datasets:
+- SimBench v1.6.1 low-voltage rural1, semiurb4, and urban6 feeders and profiles.
+- Figshare EV charging transactions, DOI 10.6084/m9.figshare.22495141.v1.
+- Frozen raw objects, checksums, licenses, and retrieval records are in data_raw/ and
+  provenance/.
+
+Formulation:
+Exact dynamic programming on a balanced radial separable AC/DC-domain approximation with
+explicit endpoint and boundary conversion, conductor selection, ampacity, and voltage-drop
+diagnostics. All-AC is retained as a feasible endpoint.
+
+Exactness:
+- 8 independently enumerated toy cases.
+- Maximum absolute DP/brute-force objective error:
+  5.684e-14.
+
+Central matched original-topology results
+(inherited AC / conductor-optimized AC / fixed-conductor hybrid /
+joint hybrid / electrical-ideal hybrid; kWh/year):
+- Rural: 4360.6 /
+  4217.3 /
+  3538.5 /
+  3396.4 /
+  143.4.
+- Suburban: 10070.6 /
+  8992.6 /
+  9123.5 /
+  8063.7 /
+  590.9.
+- Urban: 12052.0 /
+  11505.9 /
+  11623.0 /
+  11077.3 /
+  378.2.
+- Mean conductor redesign contrast: -6.1744%.
+- Mean joint-hybrid versus conductor-optimized AC contrast:
+  -11.1734%.
+- Central architectures: rural: hybrid; suburban: hybrid; urban: hybrid.
+
+Full-factorial evidence:
+- 7200 scenario rows and
+  1440 joint-optimization cells.
+- All-AC / hybrid / root-converted DC:
+  897 /
+  399 /
+  144 cells.
+- Feeder-specific discrepancy screening:
+  897 no modeled benefit /
+  531 robustly material /
+  12 indeterminate cells.
+
+Converter mechanisms:
+- Removing standby loss changes architecture in
+  5.069% of cells.
+- Removing boundary-efficiency loss changes architecture in
+  41.181%.
+- Electrical-ideal conversion changes architecture in
+  66.597%.
+- Full ideal conversion changes architecture in
+  90.000%.
+
+Validation and computation:
+- Median benchmark pandapower line-loss discrepancy:
+  1.4082%.
+- 12 all-AC stress cases; maximum
+  discrepancy 2.5913%.
+- Factorial runtime 17.93 s;
+  ablation runtime 36.40 s.
+- Runtime and memory values are live implementation measurements, not complexity proofs.
+
+Limitations:
+Balanced active-power approximation; proxy DER portfolios; no protection, harmonics,
+grounding, reliability, or deployable absolute cost claims. Synthetic MST topologies are
+not observed infrastructure. Design-grid frequencies are not deployment probabilities.
+Normalized regularizers are not monetary costs. Planning differences below model discrepancy
+are indeterminate. Nonlinear validation is all-AC only and does not validate hybrid controls.
+
+Reproduction:
+make setup
+make acquire
+make all
+make test
+make qc
+
+Public repository:
+https://github.com/bougtoir/acdc_boundary_grid
+
+Final inventory:
+- manuscript/build/acdc_boundary_tsg.docx
+- manuscript/build/pdf/acdc_boundary_tsg.pdf
+- submission/build/cover_letter.docx
+- submission/build/author_declarations.md
+- submission/build/submission_checklist.md
+- submission/build/FINAL_HANDOFF_REVISED.txt
+- submission/build/tsg_submission_package.zip
+- figures/*.png and figures/*.tiff
+- tables/*.csv
+- results/manuscript_values.csv and results/result_manifest.json
+- qc/*_revision.md, qc/final_acceptance_gates.md, and handoffs/PHASE_R*_HANDOFF.md
+
+Human input required before submission:
+Author names, affiliations, emails, ORCIDs, corresponding author, funding, conflicts,
+author contributions, prior-publication status, archival DOI if required, and final
+verification of IEEE PES AI-disclosure wording.

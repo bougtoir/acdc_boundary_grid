@@ -1,0 +1,289 @@
+feeder,topology,portfolio,seed,converter_efficiency,first_non_ac_native_dc_share,first_root_dc_native_dc_share,architecture_sequence,boundary_sequence
+rural,original,K0,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K0,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K0,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|5-4|0.75:3-6|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K0,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-12|5-4|0.5:8-12|9-2|5-4|0.75:3-6|8-12|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K0,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K0,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K0,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|9-2|0.5:1-8|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K0,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|9-2|0.5:1-8|8-12|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K0,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K0,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K0,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,original,K0,20260926,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,original,K1,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K1,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K1,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|5-4|0.75:3-6|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K1,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-12|5-4|0.5:8-12|9-2|5-4|0.75:3-6|8-12|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K1,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K1,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K1,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|9-2|0.5:1-8|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K1,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|9-2|0.5:1-8|8-12|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K1,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K1,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K1,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,original,K1,20260926,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,original,K2,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K2,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K2,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|5-4|0.75:3-6|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K2,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-12|5-4|0.5:8-12|9-2|5-4|0.75:3-6|8-12|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K2,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K2,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K2,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|9-2|0.5:1-8|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K2,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|9-2|0.5:1-8|8-12|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K2,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K2,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K2,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,original,K2,20260926,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,original,K3,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K3,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K3,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|5-4|0.75:3-6|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K3,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-12|5-4|0.5:8-12|9-2|5-4|0.75:3-6|8-12|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K3,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K3,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K3,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|9-2|0.5:1-8|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K3,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|9-2|0.5:1-8|8-12|9-2|5-4|0.75:3-6|1-8|9-2|1:3-6|3-7|3-0|3-1
+rural,original,K3,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K3,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,original,K3,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,original,K3,20260926,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:9-2|0.75:3-0|3-1|10-9|1:3-6|3-7|3-0|3-1
+rural,synthetic_mst,K0,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K0,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K0,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:6-7|0.5:6-7|5-4|0.75:6-7|9-13|9-2|1:3-6
+rural,synthetic_mst,K0,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:6-7|8-12|5-4|0.5:6-7|8-12|9-2|0.75:6-7|8-12|9-13|9-2|1:3-6
+rural,synthetic_mst,K0,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K0,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K0,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|0.5:6-7|1-8|5-4|0.75:6-7|1-8|9-13|5-4|1:3-6
+rural,synthetic_mst,K0,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|0.5:6-7|1-8|8-12|9-2|0.75:6-7|1-8|9-13|9-2|1:3-6
+rural,synthetic_mst,K0,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K0,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K0,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:6-1|9-13|1:3-6
+rural,synthetic_mst,K0,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:3-6|6-7|5-4|1:3-6
+rural,synthetic_mst,K1,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K1,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K1,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:5-4|0.75:9-13|9-2|1:3-6
+rural,synthetic_mst,K1,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:6-7|8-12|5-4|0.5:6-7|8-12|5-4|0.75:6-7|8-12|9-13|9-2|1:3-6
+rural,synthetic_mst,K1,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K1,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K1,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|0.5:1-8|5-4|0.75:1-8|9-13|5-4|1:3-6
+rural,synthetic_mst,K1,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|0.5:6-7|1-8|8-12|5-4|0.75:6-7|1-8|9-13|5-4|1:3-6
+rural,synthetic_mst,K1,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K1,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K1,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:6-1|9-13|1:3-6
+rural,synthetic_mst,K1,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:3-6|6-7|5-4|1:3-6
+rural,synthetic_mst,K2,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K2,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K2,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:6-7|0.5:6-7|5-4|0.75:6-7|9-13|9-2|1:3-6
+rural,synthetic_mst,K2,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:6-7|8-12|5-4|0.5:6-7|8-12|5-4|0.75:6-7|8-12|9-13|9-2|1:3-6
+rural,synthetic_mst,K2,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K2,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K2,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|0.5:6-7|1-8|5-4|0.75:6-7|1-8|9-13|5-4|1:3-6
+rural,synthetic_mst,K2,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|0.5:6-7|1-8|8-12|5-4|0.75:6-7|1-8|9-13|5-4|1:3-6
+rural,synthetic_mst,K2,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K2,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K2,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:6-1|9-13|1:3-6
+rural,synthetic_mst,K2,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:3-6|6-7|5-4|1:3-6
+rural,synthetic_mst,K3,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K3,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K3,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:6-7|0.5:6-7|5-4|0.75:6-7|9-13|9-2|1:3-6
+rural,synthetic_mst,K3,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:6-7|8-12|5-4|0.5:6-7|8-12|5-4|0.75:6-7|8-12|9-13|9-2|1:3-6
+rural,synthetic_mst,K3,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K3,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K3,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|0.5:6-7|1-8|5-4|0.75:6-7|1-8|9-13|5-4|1:3-6
+rural,synthetic_mst,K3,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-8|8-12|0.5:6-7|1-8|8-12|5-4|0.75:6-7|1-8|9-13|5-4|1:3-6
+rural,synthetic_mst,K3,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K3,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+rural,synthetic_mst,K3,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:6-1|9-13|1:3-6
+rural,synthetic_mst,K3,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:9-13|0.5:9-13|0.75:3-6|6-7|5-4|1:3-6
+suburban,original,K0,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K0,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K0,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K0,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|29-12|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K0,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K0,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K0,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|0.5:8-18|37-40|0.75:8-18|1-9|37-40|4-21|26-32|1:14-28|14-20|14-34
+suburban,original,K0,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|19-25|0.5:8-18|37-40|19-25|0.75:14-20|34-35|8-18|38-39|1:14-28|14-20|14-34
+suburban,original,K0,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K0,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K0,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-38|40-41|0.75:35-36|8-18|24-19|1:14-28|14-20|14-34
+suburban,original,K0,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:40-41|19-25|0.5:37-38|40-41|19-25|0.75:14-28|35-36|17-16|24-19|1:14-28|14-20|14-34
+suburban,original,K1,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K1,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K1,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K1,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|29-12|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K1,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K1,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K1,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|0.5:8-18|37-40|0.75:8-18|1-9|37-40|4-21|26-32|1:14-28|14-20|14-34
+suburban,original,K1,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|19-25|0.5:8-18|37-40|19-25|0.75:14-20|34-35|8-18|38-39|1:14-28|14-20|14-34
+suburban,original,K1,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K1,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K1,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-38|40-41|0.75:35-36|8-18|24-19|1:14-28|14-20|14-34
+suburban,original,K1,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:40-41|19-25|0.5:37-38|40-41|19-25|0.75:14-28|35-36|17-16|24-19|1:14-28|14-20|14-34
+suburban,original,K2,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K2,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K2,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K2,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|29-12|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K2,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K2,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K2,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|0.5:8-18|37-40|0.75:8-18|1-9|37-40|4-21|26-32|1:14-28|14-20|14-34
+suburban,original,K2,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|19-25|0.5:8-18|37-40|19-25|0.75:14-20|34-35|8-18|38-39|1:14-28|14-20|14-34
+suburban,original,K2,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K2,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K2,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-38|40-41|0.75:35-36|8-18|24-19|1:14-28|14-20|14-34
+suburban,original,K2,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:40-41|19-25|0.5:37-38|40-41|19-25|0.75:14-28|35-36|17-16|24-19|1:14-28|14-20|14-34
+suburban,original,K3,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K3,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K3,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K3,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-40|38-39|41-42|29-12|0.75:34-35|41-42|23-29|1:14-28|14-20|14-34
+suburban,original,K3,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K3,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K3,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|0.5:8-18|37-40|0.75:8-18|1-9|37-40|4-21|26-32|1:14-28|14-20|14-34
+suburban,original,K3,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:8-18|40-41|19-25|0.5:8-18|37-40|19-25|0.75:14-20|34-35|8-18|38-39|1:14-28|14-20|14-34
+suburban,original,K3,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K3,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,original,K3,20260926,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:37-38|40-41|0.75:35-36|8-18|24-19|1:14-28|14-20|14-34
+suburban,original,K3,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:40-41|19-25|0.5:37-38|40-41|19-25|0.75:14-28|35-36|17-16|24-19|1:14-28|14-20|14-34
+suburban,synthetic_mst,K0,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K0,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K0,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|7-20|41-42|0.75:37-38|23-29|31-7|41-42|1:14-28
+suburban,synthetic_mst,K0,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|29-12|7-20|41-42|0.75:18-40|23-29|31-7|35-34|41-42|1:14-28
+suburban,synthetic_mst,K0,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K0,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K0,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|0.5:39-41|0.75:23-29|31-7|39-41|4-21|26-32|1:14-28
+suburban,synthetic_mst,K0,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|19-25|0.5:37-36|39-41|35-34|19-25|0.75:14-28|35-34|1:14-28
+suburban,synthetic_mst,K0,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K0,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K0,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:31-7|0.5:37-38|31-7|0.75:37-38|31-7|24-19|1:14-28
+suburban,synthetic_mst,K0,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-31|39-41|19-25|0.5:1-31|37-38|19-25|0.75:14-28|35-34|12-3|1:14-28
+suburban,synthetic_mst,K1,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K1,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K1,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|41-42|0.75:37-38|23-29|31-7|41-42|1:14-28
+suburban,synthetic_mst,K1,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|29-12|7-20|41-42|0.75:18-40|23-29|31-7|35-34|41-42|1:14-28
+suburban,synthetic_mst,K1,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K1,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K1,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|0.5:39-41|0.75:23-29|31-7|39-41|4-21|26-32|1:14-28
+suburban,synthetic_mst,K1,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|19-25|0.5:37-36|39-41|35-34|19-25|0.75:14-28|35-34|1:14-28
+suburban,synthetic_mst,K1,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K1,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K1,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:31-7|0.5:37-38|31-7|0.75:37-38|31-7|24-19|1:14-28
+suburban,synthetic_mst,K1,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-31|39-41|19-25|0.5:1-31|37-38|19-25|0.75:14-28|35-34|12-3|1:14-28
+suburban,synthetic_mst,K2,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K2,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K2,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|7-20|41-42|0.75:37-38|23-29|31-7|41-42|1:14-28
+suburban,synthetic_mst,K2,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|29-12|7-20|41-42|0.75:18-40|23-29|31-7|35-34|41-42|1:14-28
+suburban,synthetic_mst,K2,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K2,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K2,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|0.5:39-41|0.75:23-29|31-7|39-41|4-21|26-32|1:14-28
+suburban,synthetic_mst,K2,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|19-25|0.5:37-36|39-41|35-34|19-25|0.75:14-28|35-34|1:14-28
+suburban,synthetic_mst,K2,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K2,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K2,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:31-7|0.5:37-38|31-7|0.75:37-38|31-7|24-19|1:14-28
+suburban,synthetic_mst,K2,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-31|39-41|19-25|0.5:1-31|37-38|19-25|0.75:14-28|35-34|12-3|1:14-28
+suburban,synthetic_mst,K3,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K3,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K3,20260924,0.98,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|7-20|41-42|0.75:37-38|23-29|31-7|41-42|1:14-28
+suburban,synthetic_mst,K3,20260924,0.99,0.5,1.0,0:all-AC|0.25:all-AC|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:none|0.5:38-39|29-12|7-20|41-42|0.75:18-40|23-29|31-7|35-34|41-42|1:14-28
+suburban,synthetic_mst,K3,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K3,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K3,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|0.5:39-41|0.75:23-29|31-7|39-41|4-21|26-32|1:14-28
+suburban,synthetic_mst,K3,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:39-41|19-25|0.5:37-36|39-41|35-34|19-25|0.75:14-28|35-34|1:14-28
+suburban,synthetic_mst,K3,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K3,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+suburban,synthetic_mst,K3,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:31-7|0.5:37-38|31-7|0.75:37-38|31-7|24-19|1:14-28
+suburban,synthetic_mst,K3,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:1-31|39-41|19-25|0.5:1-31|37-38|19-25|0.75:14-28|35-34|12-3|1:14-28
+urban,original,K0,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K0,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K0,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|12-45|23-14|42-41|0.75:0-11|9-4|20-36|48-49|56-57|12-45|23-14|42-41|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K0,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|12-45|23-14|42-41|24-19|22-33|0.75:0-11|9-4|20-36|48-49|56-57|12-45|23-14|42-41|24-19|1-17|22-33|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K0,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K0,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K0,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:56-57|36-43|12-45|23-14|5-8|0.75:32-20|56-57|23-14|5-8|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K0,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:56-57|36-43|12-45|23-14|5-8|0.75:0-11|38-25|32-20|16-26|56-57|42-41|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K0,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K0,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K0,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|23-14|5-8|0.75:0-53|0-54|20-12|4-30|23-14|42-41|19-5|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K0,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|49-50|23-14|5-8|0.75:0-53|0-54|0-38|20-12|4-30|49-50|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K1,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K1,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K1,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|23-14|42-41|0.75:0-11|9-4|20-36|48-49|56-57|23-14|42-41|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K1,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|12-45|23-14|42-41|24-19|22-33|0.75:0-11|9-4|20-36|48-49|56-57|12-45|23-14|42-41|24-19|1-17|22-33|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K1,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K1,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K1,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:56-57|36-43|23-14|5-8|0.75:32-20|56-57|23-14|5-8|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K1,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:56-57|36-43|12-45|23-14|5-8|0.75:0-11|38-25|32-20|16-26|56-57|42-41|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K1,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K1,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K1,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|23-14|5-8|0.75:0-53|0-54|20-12|4-30|23-14|42-41|19-5|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K1,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|49-50|23-14|5-8|0.75:0-53|0-54|0-38|20-12|4-30|49-50|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K2,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K2,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K2,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|12-45|23-14|42-41|0.75:0-11|9-4|20-36|48-49|56-57|12-45|23-14|42-41|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K2,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|12-45|23-14|42-41|24-19|22-33|0.75:0-11|9-4|20-36|48-49|56-57|12-45|23-14|42-41|24-19|1-17|22-33|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K2,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K2,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K2,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:56-57|36-43|12-45|23-14|5-8|0.75:32-20|56-57|23-14|5-8|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K2,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:56-57|36-43|12-45|23-14|5-8|0.75:0-11|38-25|32-20|16-26|56-57|42-41|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K2,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K2,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K2,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|23-14|5-8|0.75:0-53|0-54|20-12|4-30|23-14|42-41|19-5|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K2,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|49-50|23-14|5-8|0.75:0-53|0-54|0-38|20-12|4-30|49-50|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K3,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K3,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K3,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|12-45|23-14|42-41|0.75:0-11|9-4|20-36|48-49|56-57|12-45|23-14|42-41|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K3,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:9-4|16-26|12-45|23-14|42-41|24-19|22-33|0.75:0-11|9-4|20-36|48-49|56-57|12-45|23-14|42-41|24-19|1-17|22-33|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K3,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K3,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K3,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:56-57|36-43|12-45|23-14|5-8|0.75:32-20|56-57|23-14|5-8|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K3,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:56-57|36-43|12-45|23-14|5-8|0.75:0-11|38-25|32-20|16-26|56-57|42-41|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K3,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K3,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,original,K3,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|23-14|5-8|0.75:0-53|0-54|20-12|4-30|23-14|42-41|19-5|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,original,K3,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:20-12|33-18|0.5:20-12|49-50|23-14|5-8|0.75:0-53|0-54|0-38|20-12|4-30|49-50|1-17|1:0-11|0-34|0-46|0-53|0-54|0-38|0-27
+urban,synthetic_mst,K0,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K0,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K0,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|0.75:10-15|36-43|12-20|42-41|50-51|23-14|1-17|56-57|1:0-11
+urban,synthetic_mst,K0,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|24-19|22-33|0.75:0-11|4-9|1-17|22-33|1:0-11
+urban,synthetic_mst,K0,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K0,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K0,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:36-43|23-14|5-8|56-57|0.75:36-43|23-14|5-8|1-17|56-57|1:0-11
+urban,synthetic_mst,K0,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:36-43|23-14|5-8|56-57|0.75:0-11|4-9|20-32|42-41|25-38|1:0-11
+urban,synthetic_mst,K0,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K0,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K0,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11
+urban,synthetic_mst,K0,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:36-12|32-34|50-49|23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11
+urban,synthetic_mst,K1,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K1,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K1,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|0.75:10-15|36-43|12-20|42-41|50-51|23-14|1-17|56-57|1:0-11
+urban,synthetic_mst,K1,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|24-19|22-33|0.75:0-11|4-9|1-17|22-33|1:0-11
+urban,synthetic_mst,K1,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K1,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K1,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:36-43|23-14|5-8|56-57|0.75:36-43|23-14|5-8|1-17|56-57|1:0-11
+urban,synthetic_mst,K1,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:36-43|23-14|5-8|56-57|0.75:0-11|4-9|20-32|42-41|25-38|1:0-11
+urban,synthetic_mst,K1,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K1,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K1,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11
+urban,synthetic_mst,K1,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11
+urban,synthetic_mst,K2,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K2,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K2,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|0.75:10-15|36-43|12-20|42-41|50-51|23-14|1-17|56-57|1:0-11
+urban,synthetic_mst,K2,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|24-19|22-33|0.75:0-11|4-9|1-17|22-33|1:0-11
+urban,synthetic_mst,K2,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K2,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K2,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:36-43|23-14|5-8|56-57|0.75:36-43|23-14|5-8|1-17|56-57|1:0-11
+urban,synthetic_mst,K2,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:36-43|23-14|5-8|56-57|0.75:0-11|4-9|20-32|42-41|25-38|1:0-11
+urban,synthetic_mst,K2,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K2,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K2,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11
+urban,synthetic_mst,K2,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:36-12|32-34|50-49|23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11
+urban,synthetic_mst,K3,20260924,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K3,20260924,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K3,20260924,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|0.75:10-15|36-43|12-20|42-41|50-51|23-14|1-17|56-57|1:0-11
+urban,synthetic_mst,K3,20260924,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|0.5:12-20|42-41|23-14|24-19|22-33|0.75:0-11|4-9|1-17|22-33|1:0-11
+urban,synthetic_mst,K3,20260925,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K3,20260925,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K3,20260925,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|33-18|0.5:36-43|23-14|5-8|56-57|0.75:36-43|23-14|5-8|1-17|56-57|1:0-11
+urban,synthetic_mst,K3,20260925,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:23-14|8-39|0.5:36-43|23-14|5-8|56-57|0.75:0-11|4-9|20-32|42-41|25-38|1:0-11
+urban,synthetic_mst,K3,20260926,0.94,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K3,20260926,0.96,,,0:all-AC|0.25:all-AC|0.5:all-AC|0.75:all-AC|1:all-AC,0:none|0.25:none|0.5:none|0.75:none|1:none
+urban,synthetic_mst,K3,20260926,0.98,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11
+urban,synthetic_mst,K3,20260926,0.99,0.25,1.0,0:all-AC|0.25:hybrid|0.5:hybrid|0.75:hybrid|1:root-converted DC,0:none|0.25:33-18|0.5:23-14|5-8|0.75:36-12|9-27|42-31|42-41|32-34|19-5|1-17|1:0-11

@@ -1,0 +1,57 @@
+status: frozen_before_final_runs
+frozen_utc: "2026-09-24"
+central_claim: >
+  The marginal planning value of permitting DC must be estimated after separating it
+  from topology and conductor redesign, and architecture transitions are conditional
+  on converter and load assumptions.
+feeders:
+  rural: 1-LV-rural1--0-sw
+  suburban: 1-LV-semiurb4--0-sw
+  urban: 1-LV-urban6--0-sw
+topologies:
+  - original
+  - synthetic_mst
+portfolios:
+  K0:
+    label: base load
+    annual_energy_factor: 1.0
+    peak_factor: 1.0
+  K1:
+    label: high PV proxy
+    annual_energy_factor: 0.78
+    peak_factor: 0.92
+  K2:
+    label: high EV proxy
+    annual_energy_factor: 1.20
+    peak_factor: 1.32
+  K3:
+    label: PV plus EV plus storage proxy
+    annual_energy_factor: 0.98
+    peak_factor: 1.08
+native_dc_shares: [0.0, 0.25, 0.5, 0.75, 1.0]
+spatial_seeds: [20260924, 20260925, 20260926]
+converter_efficiencies: [0.94, 0.96, 0.98, 0.99]
+converter_standby_fraction: 0.002
+endpoint_efficiency: 0.96
+conductor_scale_options: [1.0, 1.5, 2.0]
+material_weight: 3.0
+converter_capacity_weight: 2.0
+power_factor: 0.95
+ac_voltage_line_line_v: 400.0
+dc_voltage_pole_to_pole_v: 750.0
+voltage_drop_limit_pu: 0.05
+ampacity_limit_fraction: 1.0
+primary_outcomes:
+  - annual electrical loss and conversion loss
+  - architecture class
+  - DC-served load share
+  - converter count and capacity
+secondary_outcomes:
+  - normalized conductor material
+  - approximate voltage drop
+  - approximate ampacity utilization
+negative_result_rule: all-AC, all-DC, hybrid, null, and reversal findings are retained
+stopping_criteria:
+  toy_objective_relative_error: 1.0e-9
+  raw_hashes_must_match: true
+  all_outputs_must_regenerate: true

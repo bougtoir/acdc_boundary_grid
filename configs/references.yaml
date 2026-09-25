@@ -1,0 +1,64 @@
+references:
+  - id: ahmed2016
+    authors: H. M. A. Ahmed, A. B. Eltantawy, and M. M. A. Salama
+    title: A Planning Approach for the Network Configuration of AC-DC Hybrid Distribution Systems
+    journal: IEEE Transactions on Smart Grid
+    year: 2016
+    pages: 1-1
+    doi: 10.1109/TSG.2016.2608508
+  - id: lotfi2017
+    authors: H. Lotfi and A. Khodaei
+    title: Hybrid AC/DC microgrid planning
+    journal: Energy
+    year: 2017
+    volume: 118
+    pages: 37-46
+    doi: 10.1016/j.energy.2016.12.015
+  - id: wu2019
+    authors: X. Wu, Z. Wang, T. Ding, and Z. Li
+    title: Hybrid AC/DC Microgrid Planning with Optimal Placement of DC Feeders
+    journal: Energies
+    year: 2019
+    volume: 12
+    article: 1751
+    doi: 10.3390/en12091751
+  - id: zhang2022
+    authors: L. Zhang, B. Tong, Z. Wang, W. Tang, and C. Shen
+    title: Optimal Configuration of Hybrid AC/DC Distribution Network Considering the Temporal Power Flow Complementarity on Lines
+    journal: IEEE Transactions on Smart Grid
+    year: 2022
+    volume: 13
+    issue: 5
+    pages: 3857-3866
+    doi: 10.1109/TSG.2021.3102615
+  - id: barros2023
+    authors: H. F. de Barros, M.-C. Alvarez-Herault, B. Raison, and Q. T. Tran
+    title: Optimal AC/DC Distribution Systems Expansion Planning From DSO's Perspective Considering Topological Constraints
+    journal: IEEE Transactions on Power Delivery
+    year: 2023
+    volume: 38
+    issue: 5
+    pages: 3417-3428
+    doi: 10.1109/TPWRD.2023.3277089
+  - id: wang2022
+    authors: Z. Wang, L. Zhong, Z. Pan, T. Yu, and X. Qiu
+    title: Optimal double Q AC-DC hybrid distribution system planning with explicit topology-variable-based reliability assessment
+    journal: Applied Energy
+    year: 2022
+    volume: 322
+    article: 119438
+    doi: 10.1016/j.apenergy.2022.119438
+  - id: simbench
+    authors: S. Meinecke, D. Sarajlić, S. R. Drauz, A. Klettke, L.-P. Lauven, C. Rehtanz, A. Moser, and M. Braun
+    title: SimBench--A Benchmark Dataset of Electric Power Systems to Compare Innovative Solutions Based on Power Flow Analysis
+    journal: Energies
+    year: 2020
+    volume: 13
+    article: 3290
+    doi: 10.3390/en13123290
+  - id: evdata
+    authors: E. Lee, K. Baek, and J. Kim
+    title: A dataset for multi-faceted analysis of electric vehicle charging transactions
+    journal: figshare
+    year: 2023
+    doi: 10.6084/m9.figshare.22495141.v1
