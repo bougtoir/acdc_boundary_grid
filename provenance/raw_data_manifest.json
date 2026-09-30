@@ -1,0 +1,33 @@
+{
+  "complete": true,
+  "records": [
+    {
+      "bytes": 90966482,
+      "dataset_id": "simbench-1.6.1-wheel",
+      "license": "ODbL-1.0 database; BSD-3-Clause code",
+      "local_path": "data_raw/simbench/1.6.1/simbench-1.6.1-py3-none-any.whl",
+      "publisher": "PyPI / SimBench consortium",
+      "redistribution": "allowed with license and attribution",
+      "retrieval_conditions": "complete object; HTTPS GET; no pagination",
+      "retrieved_utc": "2026-09-24T06:55:37+00:00",
+      "sha256": "f1d8c879cc35bca17552ac6fd0ea95e9097bc0300f61d66f13eb1d755017a763",
+      "url": "https://files.pythonhosted.org/packages/fc/fa/d30a9ba570eb05c4013712b6b1e4eaef411c5c486e07637a6d2380617c2e/simbench-1.6.1-py3-none-any.whl",
+      "verified": true,
+      "version": "1.6.1"
+    },
+    {
+      "bytes": 7605859,
+      "dataset_id": "ev-charging-22495141-v1",
+      "license": "CC BY 4.0",
+      "local_path": "data_raw/ev_charging/22495141_v1/ChargingRecords.csv",
+      "publisher": "figshare",
+      "redistribution": "allowed with attribution",
+      "retrieval_conditions": "complete object; HTTPS GET; no pagination",
+      "retrieved_utc": "2026-09-24T06:55:39+00:00",
+      "sha256": "d541259bed55e2a9bc3413756954e7a059b50f9c9031f1dfc6ec87cbf3afd358",
+      "url": "https://ndownloader.figshare.com/files/39952252",
+      "verified": true,
+      "version": "10.6084/m9.figshare.22495141.v1"
+    }
+  ]
+}

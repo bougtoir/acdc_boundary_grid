@@ -1,0 +1,2 @@
+platform,python,processor,logical_cpus,memory_total,peak_process_rss_mb,software_versions,factorial_scenario_runtime_s,converter_ablation_runtime_s,pipeline_elapsed_before_document_build_s
+Linux-6.8.0-1061-aws-x86_64-with-glibc2.35,3.10.12,INTEL(R) XEON(R) PLATINUM 8559C,2,8131560 kB,689.9140625,numpy=2.2.6;pandas=2.3.3;networkx=3.4.2;pandapower=3.4.0;simbench=1.6.1;python-docx=1.2.0;matplotlib=3.10.6,17.927377535999995,36.39542201399996,97.05740966400003

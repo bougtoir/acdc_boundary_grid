@@ -1,0 +1,84 @@
+{
+  "files": [
+    {
+      "bytes": 8533,
+      "file": "central_decomposition.csv"
+    },
+    {
+      "bytes": 460,
+      "file": "computational_environment.csv"
+    },
+    {
+      "bytes": 8278491,
+      "file": "converter_ablations.csv"
+    },
+    {
+      "bytes": 1753,
+      "file": "dp_exactness_validation.csv"
+    },
+    {
+      "bytes": 54703,
+      "file": "factorial_architecture_summary.csv"
+    },
+    {
+      "bytes": 305,
+      "file": "factorial_structure.csv"
+    },
+    {
+      "bytes": 47284,
+      "file": "factorial_transition_locations.csv"
+    },
+    {
+      "bytes": 2391,
+      "file": "feeder_attribution.csv"
+    },
+    {
+      "bytes": 679,
+      "file": "feeder_runtime_benchmark.csv"
+    },
+    {
+      "bytes": 58557,
+      "file": "manuscript_scalar_registry.csv"
+    },
+    {
+      "bytes": 58557,
+      "file": "manuscript_values.csv"
+    },
+    {
+      "bytes": 1109419,
+      "file": "model_discrepancy_classification.csv"
+    },
+    {
+      "bytes": 512,
+      "file": "novelty_matrix.csv"
+    },
+    {
+      "bytes": 787656,
+      "file": "phase_diagram.csv"
+    },
+    {
+      "bytes": 1557,
+      "file": "result_manifest.json"
+    },
+    {
+      "bytes": 3840586,
+      "file": "scenario_results.csv"
+    },
+    {
+      "bytes": 572,
+      "file": "toy_scaling_benchmark.csv"
+    },
+    {
+      "bytes": 868851,
+      "file": "uncertainty_summary.csv"
+    },
+    {
+      "bytes": 452,
+      "file": "validation_results.csv"
+    },
+    {
+      "bytes": 1544,
+      "file": "validation_stress_results.csv"
+    }
+  ]
+}

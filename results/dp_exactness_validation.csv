@@ -1,0 +1,9 @@
+case,optimize_conductor,expected_architecture,dp_architecture,brute_force_architectures,enumerated_designs,brute_force_optimum_count,unique_optimum,dp_objective,brute_force_objective,absolute_objective_error,objective_tolerance,objective_agreement,assignment_supported,conductor_scales_supported,architecture_agreement_if_unique,expected_architecture_agreement,state_evaluations,transition_evaluations,conductor_driven_change_verified,tie_handling_verified
+all_ac_optimum,True,all-AC,all-AC,all-AC,36,1,True,388.9108033240998,388.91080332409985,5.684341886080802e-14,3.8891080332409987e-08,True,True,True,True,True,5,12,True,True
+root_dc_optimum,True,root-converted DC,root-converted DC,root-converted DC,36,1,True,184.8888888888889,184.8888888888889,0.0,1.8488888888888893e-08,True,True,True,True,True,5,12,True,True
+interior_hybrid_optimum,True,hybrid,hybrid,hybrid,36,1,True,252.28193290243155,252.28193290243155,0.0,2.5228193290243156e-08,True,True,True,True,True,5,12,True,True
+high_converter_penalty,True,all-AC,all-AC,all-AC,36,1,True,888.9108033241007,888.9108033241007,0.0,8.889108033241007e-08,True,True,True,True,True,5,12,True,True
+high_endpoint_mismatch,True,hybrid,hybrid,hybrid,36,1,True,696.7263773468762,696.7263773468762,0.0,6.967263773468763e-08,True,True,True,True,True,5,12,True,True
+conductor_driven_fixed,False,hybrid,hybrid,hybrid,4,1,True,1071.23053247153,1071.23053247153,0.0,1.0712305324715301e-07,True,True,True,True,True,5,4,True,True
+conductor_driven_optimized,True,all-AC,all-AC,all-AC,36,1,True,804.5552477685444,804.5552477685444,0.0,8.045552477685444e-08,True,True,True,True,True,5,12,True,True
+explicit_tie,True,all-AC,all-AC,all-AC|root-converted DC,6,6,False,0.0,0.0,0.0,1e-10,True,True,True,True,True,3,6,True,True
