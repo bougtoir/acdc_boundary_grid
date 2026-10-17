@@ -1,0 +1,102 @@
+FINAL HANDOFF — CONDUCTOR-ACCOUNTING SENSITIVITY (TSG)
+====================================================
+
+Baseline preservation
+---------------------
+- Baseline commit/manifest: qc/baseline_manifest_conductor.txt
+  (commit fa0d4f0ca, branch devin/1792225898-tsg-adversarial-review).
+- Frozen primary outputs unchanged (SHA-256 verified identical):
+  results/scenario_results.csv, central_decomposition.csv, phase_diagram.csv.
+- manuscript_values.csv changes are additive only (conductor_* registry rows).
+
+Audit finding (Phase 1)
+-----------------------
+Installed conductor counts (n AC=4, n DC=3) enter ONLY the normalized
+material regularizer: material_index = n x length_km x scale. They do not
+affect resistance, ampacity, voltage drop, or capacity. Electrical loss uses
+fixed physical wire counts (3-phase AC 3I^2R, bipolar DC 2I^2R), which are
+circuit assumptions and are intentionally not parameterized. The 4/3 counts
+are therefore a bookkeeping convention, not a physical capability claim.
+
+Pre-specified sensitivity design (Phase 2)
+------------------------------------------
+configs/conductor_sensitivity.yaml — 5 scenarios, frozen before results:
+  baseline_4ac_3dc (baseline reproduction)
+  parity_3ac_3dc   (physically meaningful symmetric parity)
+  parity_4ac_4dc   (ACCOUNTING-ONLY symmetric bound; 4th DC conductor not
+                    physically defined — labeled as such)
+  bound_4ac_2dc    (most DC-favorable physical bound)
+  bound_3ac_2dc    (minimum physically meaningful counts)
+Primary comparisons predeclared: paired physical-loss change of hybrid_joint
+vs matched all_ac_conductor; architecture class; DC bus/energy fractions;
+objective components; architecture changes vs baseline. Cases run:
+all_ac_conductor + hybrid_joint on the full frozen factorial grid
+(1,440 cells per scenario, same seeds/inputs; 7,200 result rows).
+
+Results (Phase 3–4)
+-------------------
+- Architecture class invariant in EVERY cell of EVERY scenario:
+  0.00% architecture changes, 0.00% boundary-signature changes vs baseline.
+- Architecture distribution identical everywhere: all-AC 62.29%,
+  hybrid 27.71%, root-DC 10.00%; mean DC bus fraction 17.10%.
+- Paired physical-loss contrast moved only in the 4th significant digit:
+  mean -9.5828% to -9.5819% across scenarios.
+- Conclusion: the conditional planning value of permitting DC does NOT depend
+  on the 4/3 conductor-count convention within the tested accounting range.
+  The principal claim survives at the most DC-favorable physical bound (4/2).
+- Interpretation limits honestly stated: this is an accounting sensitivity;
+  it does not claim equal electrical capability of real conductor sets, and
+  does not cover grounding/protection/neutral-return requirements (unmodeled).
+
+Baseline vs sensitivity validation
+----------------------------------
+- baseline_4ac_3dc reproduces the frozen architecture distribution and the
+  paired contrast distribution of the primary analysis (matched cells verified
+  one-to-one vs results/phase_diagram.csv).
+
+Manuscript changes (Phase 5)
+----------------------------
+- Methods: new subsection II.E "Conductor-Accounting Sensitivity"
+  (bookkeeping scope, non-modeled grounding/protection, grid design).
+- Results: new subsection III.G + TABLE XI (5 scenarios x architecture
+  shares + mean paired loss change). All numbers from
+  results/manuscript_values.csv (conductor_* registry); claim ledger
+  re-run: 325 numeric tokens in the DOCX, 0 unmatched.
+- Discussion: one sentence in Limitations noting invariance.
+- Abstract unchanged (interpretation not materially changed).
+- Pages: 8/10 limit. All tables rendered without clipping (verified PDF pages).
+
+QC (Phase 6)
+------------
+- qc/conductor_sensitivity_review.md — skeptical challenge; no BLOCKER/MAJOR.
+- Tests: 30 passed (3 new conductor-count property tests).
+- Lint clean; targeted reruns only — no independent clean rebuild claimed.
+
+Affected files
+--------------
+- src/acdc_boundary/model.py (ac/dc_conductor_count parameters)
+- src/acdc_boundary/analysis.py (conductor_sensitivity + report)
+- src/acdc_boundary/pipeline.py (sensitivity run + registry rows)
+- src/acdc_boundary/manuscript.py (II.E, III.G, Table XI, Limitations note)
+- src/acdc_boundary/qc.py (zip QC list additions)
+- configs/analysis_plan.yaml (conductor counts), configs/conductor_sensitivity.yaml
+- tests/test_adversarial.py (3 new tests)
+- results/conductor_sensitivity.csv, conductor_sensitivity_summary.csv
+- qc/baseline_manifest_conductor.txt, conductor_sensitivity_review.md,
+  FINAL_HANDOFF_CONDUCTOR_SENSITIVITY.txt
+
+Reproduce
+---------
+cd acdc_boundary_grid && make setup && make all   # full pipeline incl. sensitivity
+make test && make qc
+
+Unresolved limitations
+----------------------
+- Sensitivity covers the material-accounting convention only; real conductor
+  sets differ electrically and grounding/protection is unmodeled (stated).
+- manuscript.py enumerates scenario ids for the prose range; edit together
+  with configs/conductor_sensitivity.yaml.
+- Human-only metadata placeholders remain (affiliation, funding, author).
+
+DECISION: SUBMIT (technically ready; human metadata pending as before).
+The conductor-count convention does not threaten the principal claim.

@@ -1,0 +1,61 @@
+# Conductor-count / material-accounting sensitivity design (pre-specified).
+#
+# Scope: ONLY the normalized material-accounting proxy n(domain) in
+# material_index = n x length_km x conductor scale. Electrical loss
+# (3-phase AC vs 2-pole DC I^2R), ampacity, voltage drop, and capacity
+# are unchanged in every scenario — these are bookkeeping scenarios,
+# not physical redesigns.
+#
+# Physical bounds used to select the grid:
+#   AC three-phase: 3 conductors (no neutral) to 4 (with neutral)
+#   DC bipolar:     2 conductors (pos+neg, no metallic return)
+#                   to 3 (with dedicated return/neutral)
+# Scenarios outside the physical bounds are labeled accounting_only.
+scenarios:
+  - id: baseline_4ac_3dc
+    ac: 4.0
+    dc: 3.0
+    sensitivity_class: baseline
+    physical_basis: >-
+      Original assumption: 3-phase AC + neutral; bipolar DC +
+      metallic return/neutral. Must reproduce frozen baseline.
+  - id: parity_3ac_3dc
+    ac: 3.0
+    dc: 3.0
+    sensitivity_class: symmetric_physical
+    physical_basis: >-
+      Symmetric parity at lower bound: AC three-phase without
+      neutral; DC bipolar with dedicated return. Physically
+      meaningful accounting scenario.
+  - id: parity_4ac_4dc
+    ac: 4.0
+    dc: 4.0
+    sensitivity_class: symmetric_accounting_only
+    physical_basis: >-
+      Symmetric parity at upper bound. A 4th DC conductor is not a
+      defined physical option; included only as an accounting-only
+      bound on symmetric normalization.
+  - id: bound_4ac_2dc
+    ac: 4.0
+    dc: 2.0
+    sensitivity_class: asymmetric_bound
+    physical_basis: >-
+      Most DC-favorable physical bound: AC with neutral; DC bipolar
+      without dedicated return conductor.
+  - id: bound_3ac_2dc
+    ac: 3.0
+    dc: 2.0
+    sensitivity_class: asymmetric_bound
+    physical_basis: >-
+      Minimum physically meaningful counts on both sides: AC without
+      neutral; DC bipolar without return.
+primary_comparisons:
+  - >-
+    paired loss_change_pct of hybrid_joint versus matched all_ac_conductor
+    (physical loss, same definition as the frozen paired contrast)
+  - "architecture class (all-AC / hybrid / root-converted DC) of hybrid_joint"
+  - "dc_node_fraction and dc_energy_fraction of hybrid_joint"
+  - >-
+    objective and components: line_loss, boundary_loss, endpoint_loss,
+    material_index, converter_capacity_kw
+  - "architecture changes relative to baseline_4ac_3dc per matched cell"

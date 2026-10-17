@@ -1,0 +1,326 @@
+style,literal,context,source_keys,verdict
+Normal,3.0,ile all-AC and root-converted DC remain feasible. 3 public SimBench low-voltage feeders are evaluated,format/model constant,enumeration/format/model-defining constant
+Normal,4.0,"iginal and explicitly synthetic topologies across 4 demand/DER portfolios, 5 native-DC shares, 3 spat",format/model constant,enumeration/format/model-defining constant
+Normal,5.0,"thetic topologies across 4 demand/DER portfolios, 5 native-DC shares, 3 spatial allocations, 4 bounda",format/model constant,enumeration/format/model-defining constant
+Normal,3.0,"ross 4 demand/DER portfolios, 5 native-DC shares, 3 spatial allocations, 4 boundary efficiencies, and",format/model constant,enumeration/format/model-defining constant
+Normal,4.0,"olios, 5 native-DC shares, 3 spatial allocations, 4 boundary efficiencies, and 5 nested design cells.",format/model constant,enumeration/format/model-defining constant
+Normal,5.0,"spatial allocations, 4 boundary efficiencies, and 5 nested design cells. The exact dynamic program fo",format/model constant,enumeration/format/model-defining constant
+Normal,7200.0,"converter-capacity terms. The factorial contains 7,200 rows and 1,440 joint-optimization cells. Under th",joint_efficiency_98_root_dc_cells; joint_efficiency_99_root_dc_cells; scenario_cell_count,registry
+Normal,1440.0,"city terms. The factorial contains 7,200 rows and 1,440 joint-optimization cells. Under the central setti",conductor_baseline_4ac_3dc_cells; conductor_bound_3ac_2dc_cells; conductor_bound_4ac_2dc_cells,registry
+Normal,-11.17,"ng, joint planning changed modeled annual loss by -11.17% relative to matched conductor-optimized AC. Feed",mean_hybrid_vs_ac_loss_change_pct,registry
+Normal,531.0,Feeder-specific discrepancy screening classified 531 joint cells as robustly material and 12 as indete,discrepancy_feeder_robust_cells,registry
+Normal,12.0,assified 531 joint cells as robustly material and 12 as indeterminate. Converter ablations show that n,format/model constant,enumeration/format/model-defining constant
+Normal,1.0,"verter siting, expansion, and temporal operation [1]–[6]. Consequently, assigning AC or DC states to",format/model constant,enumeration/format/model-defining constant
+Normal,6.0,"er siting, expansion, and temporal operation [1]–[6]. Consequently, assigning AC or DC states to netw",format/model constant,enumeration/format/model-defining constant
+Normal,1.0,The contributions are: 1) a nested estimand that separates conductor resiz,format/model constant,enumeration/format/model-defining constant
+Normal,2.0,"ain/conductor redesign, and topology sensitivity; 2) an exact dynamic program for the stated separabl",format/model constant,enumeration/format/model-defining constant
+Normal,3.0,ecked against independent exhaustive enumeration; 3) full-factorial transition evidence with explicit,format/model constant,enumeration/format/model-defining constant
+Normal,4.0,with explicit treatment of structural repetition; 4) discrepancy-based classification of modeled bene,format/model constant,enumeration/format/model-defining constant
+Normal,5.0,repancy-based classification of modeled benefits; 5) component-level converter ablations; and 6) a re,format/model constant,enumeration/format/model-defining constant
+Normal,6.0,fits; 5) component-level converter ablations; and 6) a reproducible evidence chain from archived publ,format/model constant,enumeration/format/model-defining constant
+Normal,1.0,Fig. 1 summarizes the controlled evidence chain from pub,format/model constant,enumeration/format/model-defining constant
+Normal,7.0,voltage scenario-0 networks from SimBench v1.6.1 [7]. The exact wheel is retained in the local immuta,format/model constant,enumeration/format/model-defining constant
+Normal,8.0,rofiles. The public charging-transaction dataset [8] is used only to check the scale of the high-EV s,format/model constant,enumeration/format/model-defining constant
+Normal,71995.0,"ck the scale of the high-EV stress portfolio; its 71,995 valid sessions have median delivered energy of 14",ev_records_valid,registry
+Normal,14.3,95 valid sessions have median delivered energy of 14.3 kWh and p95 reconstructed power of 41.8 kW. Inval,ev_median_session_energy_kwh,registry
+Normal,41.8,energy of 14.3 kWh and p95 reconstructed power of 41.8 kW. Invalid or nonpositive-duration records are e,ev_p95_session_power_kw,registry
+Normal,1.0,"ultiplier s_e from the common finite menu, or s_e=1 in fixed-conductor cells. Frozen downstream annua",format/model constant,enumeration/format/model-defining constant
+Normal,400.0,"rtfolio peak multiplier, pf is power factor, V_AC=400 V line-to-line, and V_DC=750 V pole-to-pole. With",config_ac_voltage_line_line_v; config_converter_efficiencies_count; config_portfolios_count,registry
+Normal,750.0,"s power factor, V_AC=400 V line-to-line, and V_DC=750 V pole-to-pole. With base resistance per kilometr",config_dc_voltage_pole_to_pole_v,registry
+Normal,3.0,"e=rho_e l_e/s_e. The coded annual line losses are 3 I_AC,e I_AC,e R_e H_e/1000 for AC and 2 I_DC,e I_",format/model constant,enumeration/format/model-defining constant
+Normal,2.0,"osses are 3 I_AC,e I_AC,e R_e H_e/1000 for AC and 2 I_DC,e I_DC,e R_e H_e/1000 for DC.",format/model constant,enumeration/format/model-defining constant
+Normal,8760.0,undary loss is f_E E_e(1/eta_b-1)+sigma_b f_P P_e 8760 and installed boundary capacity is f_P P_e. The f,format/model constant,enumeration/format/model-defining constant
+Normal,96.0,ity is f_P P_e. The frozen endpoint efficiency is 96% and standby fraction is 0.2% of rated boundary p,config_endpoint_efficiency,registry
+Normal,0.2,ndpoint efficiency is 96% and standby fraction is 0.2% of rated boundary power. These are dimensionless,ablation_baseline_mean_dc_bus_fraction; ablation_no_capacity_regularizer_architecture_change_pct; ablation_no_capacity_regularizer_mean_dc_bus_fraction,registry
+Normal,4.0,M_e=n(d_j)l_e s_e with n(AC)=4 and n(DC)=3. The material and converter-capacity,format/model constant,enumeration/format/model-defining constant
+Normal,2.0,and conductors. The algorithm evaluates O(|E||D|^2|S|) transitions and stores O(|V||D|+|E||D|) value,format/model constant,enumeration/format/model-defining constant
+Normal,375.0,"e DC drop uses V_DC/2 in the denominator, i.e. a ±375 V bipolar pole-to-neutral return convention on th",configs/analysis_plan.yaml,config
+Normal,750.0,bipolar pole-to-neutral return convention on the 750 V pole-to-pole feeder; a unipolar 750 V conventio,config_dc_voltage_pole_to_pole_v,registry
+Normal,750.0,tion on the 750 V pole-to-pole feeder; a unipolar 750 V convention would double the reported per-unit d,config_dc_voltage_pole_to_pole_v,registry
+Normal,8.0,"red within a declared numerical tolerance. Across 8 exactness cases, the largest absolute objective d",format/model constant,enumeration/format/model-defining constant
+Normal,0.0,"For a joint cell with modeled loss contrast delta<0 and feeder discrepancy epsilon_f, the primary scr",format/model constant,enumeration/format/model-defining constant
+Normal,0.0,"terial when |delta|>epsilon_f, indeterminate when 0<|delta|<=epsilon_f, and no modeled benefit when A",format/model constant,enumeration/format/model-defining constant
+Normal,2.0,d or delta>=0. The global maximum discrepancy and 2 epsilon_f are sensitivity thresholds. These categ,format/model constant,enumeration/format/model-defining constant
+Normal,7200.0,"The full run contains 7,200 result rows: 3 feeders, 2 topologies, 4 portfolio",joint_efficiency_98_root_dc_cells; joint_efficiency_99_root_dc_cells; scenario_cell_count,registry
+Normal,3.0,"The full run contains 7,200 result rows: 3 feeders, 2 topologies, 4 portfolios, 5 native-DC",format/model constant,enumeration/format/model-defining constant
+Normal,2.0,"e full run contains 7,200 result rows: 3 feeders, 2 topologies, 4 portfolios, 5 native-DC shares, 3 s",format/model constant,enumeration/format/model-defining constant
+Normal,4.0,"tains 7,200 result rows: 3 feeders, 2 topologies, 4 portfolios, 5 native-DC shares, 3 spatial allocat",format/model constant,enumeration/format/model-defining constant
+Normal,5.0,"sult rows: 3 feeders, 2 topologies, 4 portfolios, 5 native-DC shares, 3 spatial allocations, 4 bounda",format/model constant,enumeration/format/model-defining constant
+Normal,3.0,", 2 topologies, 4 portfolios, 5 native-DC shares, 3 spatial allocations, 4 boundary efficiencies, and",format/model constant,enumeration/format/model-defining constant
+Normal,4.0,"olios, 5 native-DC shares, 3 spatial allocations, 4 boundary efficiencies, and five design cells. Ran",format/model constant,enumeration/format/model-defining constant
+Normal,1440.0,"Of 1,440 joint cells, 733 rows belong to outcome groups re",conductor_baseline_4ac_3dc_cells; conductor_bound_3ac_2dc_cells; conductor_bound_4ac_2dc_cells,registry
+Normal,733.0,"Of 1,440 joint cells, 733 rows belong to outcome groups repeated after excl",joint_repeated_outcome_group_rows,registry
+Normal,990.0,"ps repeated after excluding the spatial seed, and 990 distinct outcome rows remain under that grouping.",joint_unique_outcome_rows_excluding_seed,registry
+Normal,4.0,"rial proxy uses installed conductor counts, n(AC)=4 and n(DC)=3 in the baseline. These counts are a b",format/model constant,enumeration/format/model-defining constant
+Normal,3.0,"ses installed conductor counts, n(AC)=4 and n(DC)=3 in the baseline. These counts are a bookkeeping a",format/model constant,enumeration/format/model-defining constant
+Normal,5.0,brid versus conductor-optimized-AC contrast under 5 conductor-count scenarios: the baseline (4 AC / 3,format/model constant,enumeration/format/model-defining constant
+Normal,4.0,"under 5 conductor-count scenarios: the baseline (4 AC / 3 DC), physically meaningful symmetric parit",format/model constant,enumeration/format/model-defining constant
+Normal,3.0,"5 conductor-count scenarios: the baseline (4 AC / 3 DC), physically meaningful symmetric parity (3/3)",format/model constant,enumeration/format/model-defining constant
+Normal,50.0,"The central cell uses K3, 50% native-DC annual energy, 98% boundary efficiency",ablation_no_boundary_electrical_loss_mean_dc_bus_fraction; central_native_dc_share_pct,registry
+Normal,98.0,"entral cell uses K3, 50% native-DC annual energy, 98% boundary efficiency, and seed 20260924. On the o",central_boundary_efficiency_pct; validation_stress_min_voltage_pu,registry
+Normal,-6.17,"nductor optimization changed mean modeled loss by -6.17%. Relative to matched conductor-optimized AC, joi",mean_conductor_effect_pct,registry
+Normal,-11.17,"n/conductor planning changed mean modeled loss by -11.17%. These are modeled attribution contrasts, not cl",mean_hybrid_vs_ac_loss_change_pct,registry
+Normal,2.0,"s the six central feeder/topology cells, and Fig. 2 visualizes the original-topology decomposition.",format/model constant,enumeration/format/model-defining constant
+Normal,-3.29,"rural original feeder, the conductor contrast is -3.29%, fixed-design DC permission is -18.85%, and the",central_rural_original_conductor_contrast_pct,registry
+Normal,-18.85,"contrast is -3.29%, fixed-design DC permission is -18.85%, and the joint architecture contrast is -19.47%.",central_rural_original_fixed_design_dc_permission_contrast_pct,registry
+Normal,-19.47,"s -18.85%, and the joint architecture contrast is -19.47%. The corresponding joint contrasts are -10.33% f",central_rural_original_joint_incremental_architecture_contrast_pct,registry
+Normal,-10.33,is -19.47%. The corresponding joint contrasts are -10.33% for suburban and -3.72% for urban. Thus conducto,central_suburban_original_joint_incremental_architecture_contrast_pct,registry
+Normal,-3.72,ding joint contrasts are -10.33% for suburban and -3.72% for urban. Thus conductor optimization and domai,central_urban_original_joint_incremental_architecture_contrast_pct,registry
+Normal,9.45,"ntral joint loss relative to original topology by 9.45% (rural), 22.63% (suburban), and 15.97% (urban).",central_rural_synthetic_mst_topology_sensitivity_vs_original_joint_pct,registry
+Normal,22.63,"s relative to original topology by 9.45% (rural), 22.63% (suburban), and 15.97% (urban). This result illu",central_suburban_synthetic_mst_topology_sensitivity_vs_original_joint_pct,registry
+Normal,15.97,"topology by 9.45% (rural), 22.63% (suburban), and 15.97% (urban). This result illustrates why a topology",central_urban_synthetic_mst_topology_sensitivity_vs_original_joint_pct,registry
+Normal,27.7,"tion cells, a hybrid architecture was selected in 27.7% of cells, all-AC in 62.3%, and root-converted DC",ablation_baseline_hybrid_pct; conductor_baseline_4ac_3dc_hybrid_pct; conductor_bound_3ac_2dc_hybrid_pct,registry
+Normal,62.3,"tecture was selected in 27.7% of cells, all-AC in 62.3%, and root-converted DC in 10.0%. These are frequ",ablation_baseline_all_ac_pct; conductor_baseline_4ac_3dc_all_ac_pct; conductor_bound_3ac_2dc_all_ac_pct,registry
+Normal,10.0,"cells, all-AC in 62.3%, and root-converted DC in 10.0%. These are frequencies in the sampled design gri",format/model constant,enumeration/format/model-defining constant
+Normal,3.0,arates those counts by boundary efficiency. Figs. 3 and 4 then show a representative transition surfa,format/model constant,enumeration/format/model-defining constant
+Normal,4.0,those counts by boundary efficiency. Figs. 3 and 4 then show a representative transition surface and,format/model constant,enumeration/format/model-defining constant
+Figure Caption,360.0,y boundary-efficiency scenario. Each row contains 360 frozen design cells.,joint_cells_per_efficiency; joint_efficiency_94_all_ac_cells; joint_efficiency_96_all_ac_cells,registry
+Normal,94.0,"At 94% and 96% boundary efficiency, every tested joint",configs/analysis_plan.yaml,config
+Normal,96.0,"At 94% and 96% boundary efficiency, every tested joint cell ret",config_endpoint_efficiency,registry
+Normal,98.0,"ybrid and root-converted DC solutions appeared at 98% and 99%, but nominal efficiency did not uniquely",central_boundary_efficiency_pct; validation_stress_min_voltage_pu,registry
+Normal,99.0,"d root-converted DC solutions appeared at 98% and 99%, but nominal efficiency did not uniquely determi",configs/analysis_plan.yaml,config
+Figure Caption,98.0,signed bus share versus native-DC energy share at 98% efficiency.,central_boundary_efficiency_pct; validation_stress_min_voltage_pu,registry
+Normal,100.0,te root conversion occurs only in a subset of the 100% native-DC cells. The exact balance remains conve,format/model constant,enumeration/format/model-defining constant
+Normal,8.0,m matched the exhaustive minimum objective in all 8 declared cases. Unique optima also matched in arc,format/model constant,enumeration/format/model-defining constant
+Normal,5.68e-14,um. The maximum absolute objective difference was 5.68e-14; 1 case contained multiple brute-force optima.,dp_exactness_max_objective_error; performance_toy_max_objective_error,registry
+Normal,1.0,ximum absolute objective difference was 5.68e-14; 1 case contained multiple brute-force optima.,format/model constant,enumeration/format/model-defining constant
+Normal,1.408,"ning approximation and nonlinear AC line loss was 1.408%, with a maximum of 1.958%. The feeder values wer",median_validation_error_pct; validation_urban_relative_error_pct,registry
+Normal,1.958,"linear AC line loss was 1.408%, with a maximum of 1.958%. The feeder values were 1.106% (rural), 1.958% (",maximum_validation_error_pct; validation_suburban_relative_error_pct,registry
+Normal,1.106,"with a maximum of 1.958%. The feeder values were 1.106% (rural), 1.958% (suburban), and 1.408% (urban),",validation_rural_relative_error_pct,registry
+Normal,1.958,"of 1.958%. The feeder values were 1.106% (rural), 1.958% (suburban), and 1.408% (urban), using nonlinear",maximum_validation_error_pct; validation_suburban_relative_error_pct,registry
+Normal,1.408,"alues were 1.106% (rural), 1.958% (suburban), and 1.408% (urban), using nonlinear pandapower line loss as",median_validation_error_pct; validation_urban_relative_error_pct,registry
+Normal,5.0,nlinear pandapower line loss as denominator. Fig. 5 displays the matched nonlinear and screening valu,format/model constant,enumeration/format/model-defining constant
+Figure Caption,1440.0,"TABLE VII. Classification of 1,440 joint cells under alternative approximation-discr",conductor_baseline_4ac_3dc_cells; conductor_bound_3ac_2dc_cells; conductor_bound_4ac_2dc_cells,registry
+Normal,531.0,"Under the primary feeder-specific rule, 531 cells were robustly material, 12 were indetermina",discrepancy_feeder_robust_cells,registry
+Normal,12.0,"-specific rule, 531 cells were robustly material, 12 were indeterminate, and 897 retained AC or had no",format/model constant,enumeration/format/model-defining constant
+Normal,897.0,"ere robustly material, 12 were indeterminate, and 897 retained AC or had no modeled loss benefit. Doubl",discrepancy_double_feeder_no_benefit_cells; discrepancy_feeder_no_benefit_cells; discrepancy_global_max_no_benefit_cells,registry
+Figure Caption,480.0,screpancy classification; each feeder contributes 480 joint cells.,joint_cells_per_feeder,registry
+Normal,0.21,"capacity regularizer changed architecture in only 0.21% of cells, although more boundary signatures chan",ablation_no_capacity_regularizer_architecture_change_pct,registry
+Normal,5.07,ed. Removing standby loss changed architecture in 5.07% and boundaries in 24.93%. Removing boundary-effi,ablation_no_standby_loss_architecture_change_pct,registry
+Normal,24.93,s changed architecture in 5.07% and boundaries in 24.93%. Removing boundary-efficiency loss produced much,ablation_no_standby_loss_boundary_change_pct,registry
+Normal,100.0,eliminating endpoint mismatch selected all-AC in 100% of cells. The last result is mechanistic: withou,format/model constant,enumeration/format/model-defining constant
+Normal,66.6,The electrical-ideal case changed architecture in 66.6% of cells; the full ideal case changed it in 90.0,ablation_electrical_ideal_conversion_architecture_change_pct,registry
+Normal,90.0,66.6% of cells; the full ideal case changed it in 90.0% and selected root-converted DC in 100.0%. Their,ablation_full_ideal_converter_architecture_change_pct; ablation_full_ideal_converter_boundary_change_pct,registry
+Normal,100.0,ged it in 90.0% and selected root-converted DC in 100.0%. Their purpose is to bound conversion penalties,format/model constant,enumeration/format/model-defining constant
+Normal,2.0,thon 3.10.12 and INTEL(R) XEON(R) PLATINUM 8559C; 2 logical CPUs were visible. Software versions were,format/model constant,enumeration/format/model-defining constant
+Normal,687.0,"=1.2.0;matplotlib=3.10.6. Peak process memory was 687 MiB. The 7,200-row factorial required 17.3 s, and",performance_peak_process_rss_mb,registry
+Normal,7.0,"tlib=3.10.6. Peak process memory was 687 MiB. The 7,200-row factorial required 17.3 s, and the conver",format/model constant,enumeration/format/model-defining constant
+Normal,17.3,"ory was 687 MiB. The 7,200-row factorial required 17.3 s, and the converter-ablation run required 26.9 s",ablation_no_capacity_regularizer_mean_dc_bus_fraction; performance_factorial_scenario_runtime_s,registry
+Normal,26.9,"d 17.3 s, and the converter-ablation run required 26.9 s in this environment.",performance_converter_ablation_runtime_s,registry
+Figure Caption,30.0,inal-topology central solve evidence; medians use 30 repeated solves.,central_rural_original_joint_dc_energy_fraction; central_suburban_original_joint_dc_energy_fraction; discrepancy_double_feeder_indeterminate_cells,registry
+Normal,2.0,"The analytical transition count is O(|E||D|^2|S|), with two domain states and three conductor s",format/model constant,enumeration/format/model-defining constant
+Normal,0.24,"time across all feeder/topology cells ranged from 0.24 to 1.04 ms. On chain toys, exhaustive enumeration",performance_min_feeder_median_runtime_ms; performance_rural_original_median_runtime_ms,registry
+Normal,1.04,"oss all feeder/topology cells ranged from 0.24 to 1.04 ms. On chain toys, exhaustive enumeration reached",performance_max_feeder_median_runtime_ms; performance_urban_synthetic_mst_median_runtime_ms,registry
+Normal,16384.0,"ms. On chain toys, exhaustive enumeration reached 16,384 designs while the maximum DP-versus-enumeration o",performance_max_enumerated_designs,registry
+Normal,12.0,All 12 balanced all-AC feeder/portfolio stress cases con,format/model constant,enumeration/format/model-defining constant
+Normal,0.983,"s converged. Across the grid, minimum voltage was 0.983 p.u., maximum line loading was 49.0%, and maximum",validation_stress_min_voltage_pu,registry
+Normal,49.0,"voltage was 0.983 p.u., maximum line loading was 49.0%, and maximum line-loss discrepancy was 2.591%. T",validation_stress_max_loading_pct,registry
+Normal,2.591,"was 49.0%, and maximum line-loss discrepancy was 2.591%. These checks support the all-AC approximation o",validation_stress_max_error_pct,registry
+Normal,0.0,rid change relative to conductor-optimized AC was 0.00%; the 5th–95th percentile interval was -46.63% to,format/model constant,enumeration/format/model-defining constant
+Normal,-46.63,C was 0.00%; the 5th–95th percentile interval was -46.63% to 0.00%. The interval spans materially differen,conductor_baseline_4ac_3dc_q05_loss_change_pct; conductor_bound_3ac_2dc_q05_loss_change_pct; conductor_bound_4ac_2dc_q05_loss_change_pct,registry
+Normal,0.0,; the 5th–95th percentile interval was -46.63% to 0.00%. The interval spans materially different outcome,format/model constant,enumeration/format/model-defining constant
+Normal,0.0,The screening diagnostics flagged 0 joint-optimization cells above the configured amp,format/model constant,enumeration/format/model-defining constant
+Normal,1.0,r single-edge voltage-drop limit. The limits were 1.00 p.u. and 0.05 p.u. Flagged cells remain in the pu,format/model constant,enumeration/format/model-defining constant
+Normal,0.05,voltage-drop limit. The limits were 1.00 p.u. and 0.05 p.u. Flagged cells remain in the public results s,config_voltage_drop_limit_pu,registry
+Normal,5.0,"the conductor-accounting sensitivity. Across all 5 scenarios, the selected architecture class was in",format/model constant,enumeration/format/model-defining constant
+Normal,17.1,"counts, and the mean DC-assigned bus fraction was 17.10% in every scenario.",ablation_baseline_mean_dc_bus_fraction; conductor_baseline_4ac_3dc_mean_dc_bus_fraction; conductor_bound_3ac_2dc_mean_dc_bus_fraction,registry
+Figure Caption,1440.0,"ion and the paired electrical-loss contrast, over 1,440 matched factorial cells per scenario. The mean-lo",conductor_baseline_4ac_3dc_cells; conductor_bound_3ac_2dc_cells; conductor_bound_4ac_2dc_cells,registry
+Normal,-9.5828,only at the fourth significant digit (means from -9.5828% to -9.5819%). The conditional value of permittin,conductor_bound_4ac_2dc_mean_loss_change_pct,registry
+Normal,-9.5819,fourth significant digit (means from -9.5828% to -9.5819%). The conditional value of permitting DC therefo,conductor_parity_4ac_4dc_mean_loss_change_pct,registry
+Normal,1.0,"[1] H. M. A. Ahmed, A. B. Eltantawy, and M. M. A. Sa",format/model constant,enumeration/format/model-defining constant
+Normal,2016.0,"stems,"" IEEE Transactions on Smart Grid, pp. 1-1, 2016, doi: 10.1109/TSG.2016.2608508.",reference entry,bibliography
+Normal,2.0,"[2] H. Lotfi and A. Khodaei, ""Hybrid AC/DC microgrid",format/model constant,enumeration/format/model-defining constant
+Normal,118.0,", ""Hybrid AC/DC microgrid planning,"" Energy, vol. 118, pp. 37-46, 2017, doi: 10.1016/j.energy.2016.12.01",reference entry,bibliography
+Normal,2017.0,"microgrid planning,"" Energy, vol. 118, pp. 37-46, 2017, doi: 10.1016/j.energy.2016.12.015.",reference entry,bibliography
+Normal,3.0,"[3] X. Wu, Z. Wang, T. Ding, and Z. Li, ""Hybrid AC/D",format/model constant,enumeration/format/model-defining constant
+Normal,12.0,"Optimal Placement of DC Feeders,"" Energies, vol. 12, Art. no. 1751, 2019, doi: 10.3390/en12091751.",reference entry,bibliography
+Normal,1751.0,"ement of DC Feeders,"" Energies, vol. 12, Art. no. 1751, 2019, doi: 10.3390/en12091751.",reference entry,bibliography
+Normal,2019.0,"of DC Feeders,"" Energies, vol. 12, Art. no. 1751, 2019, doi: 10.3390/en12091751.",reference entry,bibliography
+Normal,4.0,"[4] L. Zhang, B. Tong, Z. Wang, W. Tang, and C. Shen",format/model constant,enumeration/format/model-defining constant
+Normal,13.0,"on Lines,"" IEEE Transactions on Smart Grid, vol. 13, no. 5, pp. 3857-3866, 2022, doi: 10.1109/TSG.2021",reference entry,bibliography
+Normal,5.0,"s,"" IEEE Transactions on Smart Grid, vol. 13, no. 5, pp. 3857-3866, 2022, doi: 10.1109/TSG.2021.310261",reference entry,bibliography
+Normal,2022.0,"ons on Smart Grid, vol. 13, no. 5, pp. 3857-3866, 2022, doi: 10.1109/TSG.2021.3102615.",reference entry,bibliography
+Normal,5.0,"[5] H. F. de Barros, M.-C. Alvarez-Herault, B. Raiso",format/model constant,enumeration/format/model-defining constant
+Normal,38.0,"aints,"" IEEE Transactions on Power Delivery, vol. 38, no. 5, pp. 3417-3428, 2023, doi: 10.1109/TPWRD.20",reference entry,bibliography
+Normal,5.0,"IEEE Transactions on Power Delivery, vol. 38, no. 5, pp. 3417-3428, 2023, doi: 10.1109/TPWRD.2023.3277",reference entry,bibliography
+Normal,2023.0,"on Power Delivery, vol. 38, no. 5, pp. 3417-3428, 2023, doi: 10.1109/TPWRD.2023.3277089.",reference entry,bibliography
+Normal,6.0,"[6] Z. Wang, L. Zhong, Z. Pan, T. Yu, and X. Qiu, ""O",format/model constant,enumeration/format/model-defining constant
+Normal,322.0,"sed reliability assessment,"" Applied Energy, vol. 322, Art. no. 119438, 2022, doi: 10.1016/j.apenergy.20",reference entry,bibliography
+Normal,119438.0,"y assessment,"" Applied Energy, vol. 322, Art. no. 119438, 2022, doi: 10.1016/j.apenergy.2022.119438.",reference entry,bibliography
+Normal,2022.0,"ment,"" Applied Energy, vol. 322, Art. no. 119438, 2022, doi: 10.1016/j.apenergy.2022.119438.",reference entry,bibliography
+Normal,7.0,"[7] S. Meinecke, D. Sarajlić, S. R. Drauz, A. Klettk",format/model constant,enumeration/format/model-defining constant
+Normal,13.0,"ons Based on Power Flow Analysis,"" Energies, vol. 13, Art. no. 3290, 2020, doi: 10.3390/en13123290.",reference entry,bibliography
+Normal,3290.0,"Power Flow Analysis,"" Energies, vol. 13, Art. no. 3290, 2020, doi: 10.3390/en13123290.",reference entry,bibliography
+Normal,2020.0,"Flow Analysis,"" Energies, vol. 13, Art. no. 3290, 2020, doi: 10.3390/en13123290.",reference entry,bibliography
+Normal,8.0,"[8] E. Lee, K. Baek, and J. Kim, ""A dataset for mult",format/model constant,enumeration/format/model-defining constant
+Normal,2023.0,"lectric vehicle charging transactions,"" figshare, 2023, doi: 10.6084/m9.figshare.22495141.v1.",reference entry,bibliography
+TableCell,3.0,3,format/model constant,enumeration/format/model-defining constant
+TableCell,2.0,2,format/model constant,enumeration/format/model-defining constant
+TableCell,4.0,4,format/model constant,enumeration/format/model-defining constant
+TableCell,5.0,5,format/model constant,enumeration/format/model-defining constant
+TableCell,0.0,0%–100% annual energy,format/model constant,enumeration/format/model-defining constant
+TableCell,100.0,0%–100% annual energy,format/model constant,enumeration/format/model-defining constant
+TableCell,3.0,3,format/model constant,enumeration/format/model-defining constant
+TableCell,4.0,4,format/model constant,enumeration/format/model-defining constant
+TableCell,94.0,94%–99% scenarios,configs/analysis_plan.yaml,config
+TableCell,99.0,94%–99% scenarios,configs/analysis_plan.yaml,config
+TableCell,5.0,5,format/model constant,enumeration/format/model-defining constant
+TableCell,4361.0,4361,central_rural_original_inherited_ac_loss_kwh,registry
+TableCell,4217.0,4217,central_rural_original_conductor_optimized_ac_loss_kwh,registry
+TableCell,3538.0,3538,central_rural_original_fixed_conductor_hybrid_loss_kwh,registry
+TableCell,3396.0,3396,central_rural_original_joint_hybrid_loss_kwh,registry
+TableCell,-19.5,-19.5%,central_rural_original_joint_incremental_architecture_contrast_pct,registry
+TableCell,4595.0,4595,central_rural_synthetic_mst_inherited_ac_loss_kwh,registry
+TableCell,4335.0,4335,central_rural_synthetic_mst_conductor_optimized_ac_loss_kwh,registry
+TableCell,3975.0,3975,central_rural_synthetic_mst_fixed_conductor_hybrid_loss_kwh,registry
+TableCell,3717.0,3717,central_rural_synthetic_mst_joint_hybrid_loss_kwh,registry
+TableCell,-14.2,-14.2%,central_rural_synthetic_mst_joint_incremental_architecture_contrast_pct,registry
+TableCell,10071.0,10071,central_suburban_original_inherited_ac_loss_kwh,registry
+TableCell,8993.0,8993,central_suburban_original_conductor_optimized_ac_loss_kwh,registry
+TableCell,9123.0,9123,central_suburban_original_fixed_conductor_hybrid_loss_kwh,registry
+TableCell,8064.0,8064,central_suburban_original_joint_hybrid_loss_kwh,registry
+TableCell,-10.3,-10.3%,central_suburban_original_joint_incremental_architecture_contrast_pct,registry
+TableCell,12336.0,12336,central_suburban_synthetic_mst_inherited_ac_loss_kwh,registry
+TableCell,10126.0,10126,central_suburban_synthetic_mst_conductor_optimized_ac_loss_kwh,registry
+TableCell,12089.0,12089,central_suburban_synthetic_mst_fixed_conductor_hybrid_loss_kwh,registry
+TableCell,9888.0,9888,central_suburban_synthetic_mst_joint_hybrid_loss_kwh,registry
+TableCell,-2.3,-2.3%,central_suburban_synthetic_mst_joint_incremental_architecture_contrast_pct,registry
+TableCell,12052.0,12052,central_urban_original_inherited_ac_loss_kwh,registry
+TableCell,11506.0,11506,central_urban_original_conductor_optimized_ac_loss_kwh,registry
+TableCell,11623.0,11623,central_urban_original_fixed_conductor_hybrid_loss_kwh,registry
+TableCell,11077.0,11077,central_urban_original_joint_hybrid_loss_kwh,registry
+TableCell,-3.7,-3.7%,central_urban_original_joint_incremental_architecture_contrast_pct,registry
+TableCell,15246.0,15246,central_urban_synthetic_mst_inherited_ac_loss_kwh,registry
+TableCell,13102.0,13102,central_urban_synthetic_mst_conductor_optimized_ac_loss_kwh,registry
+TableCell,14989.0,14989,central_urban_synthetic_mst_fixed_conductor_hybrid_loss_kwh,registry
+TableCell,12846.0,12846,central_urban_synthetic_mst_joint_hybrid_loss_kwh,registry
+TableCell,-2.0,-2.0%,central_suburban_synthetic_mst_fixed_design_dc_permission_contrast_pct; central_suburban_synthetic_mst_joint_incremental_architecture_contrast_pct; central_urban_synthetic_mst_fixed_design_dc_permission_contrast_pct,registry
+TableCell,15.4,15.4%,central_rural_original_joint_dc_bus_fraction; central_rural_synthetic_mst_joint_dc_bus_fraction,registry
+TableCell,2.0,2,format/model constant,enumeration/format/model-defining constant
+TableCell,9.5,9.5%,central_rural_synthetic_mst_topology_sensitivity_vs_original_joint_pct,registry
+TableCell,7.1,7.1%,central_suburban_original_joint_dc_bus_fraction; central_suburban_synthetic_mst_joint_dc_bus_fraction,registry
+TableCell,3.0,3,format/model constant,enumeration/format/model-defining constant
+TableCell,22.6,22.6%,central_suburban_synthetic_mst_topology_sensitivity_vs_original_joint_pct,registry
+TableCell,14.0,14.0%,central_urban_original_joint_dc_bus_fraction; ev_median_session_energy_kwh; performance_rural_original_nodes,registry
+TableCell,5.0,5,format/model constant,enumeration/format/model-defining constant
+TableCell,16.0,16.0%,central_urban_synthetic_mst_topology_sensitivity_vs_original_joint_pct,registry
+TableCell,94.0,94%,configs/analysis_plan.yaml,config
+TableCell,360.0,360,joint_cells_per_efficiency; joint_efficiency_94_all_ac_cells; joint_efficiency_96_all_ac_cells,registry
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,96.0,96%,config_endpoint_efficiency,registry
+TableCell,360.0,360,joint_cells_per_efficiency; joint_efficiency_94_all_ac_cells; joint_efficiency_96_all_ac_cells,registry
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,98.0,98%,central_boundary_efficiency_pct; validation_stress_min_voltage_pu,registry
+TableCell,93.0,93,joint_efficiency_98_all_ac_cells,registry
+TableCell,195.0,195,joint_efficiency_98_hybrid_cells,registry
+TableCell,72.0,72,joint_efficiency_98_root_dc_cells; joint_efficiency_99_root_dc_cells,registry
+TableCell,99.0,99%,configs/analysis_plan.yaml,config
+TableCell,84.0,84,joint_efficiency_99_all_ac_cells,registry
+TableCell,204.0,204,joint_efficiency_99_hybrid_cells,registry
+TableCell,72.0,72,joint_efficiency_98_root_dc_cells; joint_efficiency_99_root_dc_cells,registry
+TableCell,0.0,0%,format/model constant,enumeration/format/model-defining constant
+TableCell,288.0,288,discrepancy_feeder_rule_urban_no_benefit_cells; joint_cells_per_native_share; joint_native_share_0_all_ac_cells,registry
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,288.0,288,discrepancy_feeder_rule_urban_no_benefit_cells; joint_cells_per_native_share; joint_native_share_0_all_ac_cells,registry
+TableCell,25.0,25%,format/model constant,enumeration/format/model-defining constant
+TableCell,177.0,177,joint_native_share_25_all_ac_cells,registry
+TableCell,111.0,111,joint_native_share_25_hybrid_cells; validation_rural_relative_error_pct,registry
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,288.0,288,discrepancy_feeder_rule_urban_no_benefit_cells; joint_cells_per_native_share; joint_native_share_0_all_ac_cells,registry
+TableCell,50.0,50%,ablation_no_boundary_electrical_loss_mean_dc_bus_fraction; central_native_dc_share_pct,registry
+TableCell,144.0,144,joint_native_share_100_all_ac_cells; joint_native_share_100_root_dc_cells; joint_native_share_50_all_ac_cells,registry
+TableCell,144.0,144,joint_native_share_100_all_ac_cells; joint_native_share_100_root_dc_cells; joint_native_share_50_all_ac_cells,registry
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,288.0,288,discrepancy_feeder_rule_urban_no_benefit_cells; joint_cells_per_native_share; joint_native_share_0_all_ac_cells,registry
+TableCell,75.0,75%,performance_suburban_original_median_runtime_ms,registry
+TableCell,144.0,144,joint_native_share_100_all_ac_cells; joint_native_share_100_root_dc_cells; joint_native_share_50_all_ac_cells,registry
+TableCell,144.0,144,joint_native_share_100_all_ac_cells; joint_native_share_100_root_dc_cells; joint_native_share_50_all_ac_cells,registry
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,288.0,288,discrepancy_feeder_rule_urban_no_benefit_cells; joint_cells_per_native_share; joint_native_share_0_all_ac_cells,registry
+TableCell,100.0,100%,format/model constant,enumeration/format/model-defining constant
+TableCell,144.0,144,joint_native_share_100_all_ac_cells; joint_native_share_100_root_dc_cells; joint_native_share_50_all_ac_cells,registry
+TableCell,0.0,0,format/model constant,enumeration/format/model-defining constant
+TableCell,144.0,144,joint_native_share_100_all_ac_cells; joint_native_share_100_root_dc_cells; joint_native_share_50_all_ac_cells,registry
+TableCell,288.0,288,discrepancy_feeder_rule_urban_no_benefit_cells; joint_cells_per_native_share; joint_native_share_0_all_ac_cells,registry
+TableCell,897.0,897,discrepancy_double_feeder_no_benefit_cells; discrepancy_feeder_no_benefit_cells; discrepancy_global_max_no_benefit_cells,registry
+TableCell,531.0,531,discrepancy_feeder_robust_cells,registry
+TableCell,12.0,12,format/model constant,enumeration/format/model-defining constant
+TableCell,897.0,897,discrepancy_double_feeder_no_benefit_cells; discrepancy_feeder_no_benefit_cells; discrepancy_global_max_no_benefit_cells,registry
+TableCell,525.0,525,discrepancy_global_max_robust_cells,registry
+TableCell,18.0,18,format/model constant,enumeration/format/model-defining constant
+TableCell,897.0,897,discrepancy_double_feeder_no_benefit_cells; discrepancy_feeder_no_benefit_cells; discrepancy_global_max_no_benefit_cells,registry
+TableCell,513.0,513,discrepancy_double_feeder_robust_cells,registry
+TableCell,30.0,30,central_rural_original_joint_dc_energy_fraction; central_suburban_original_joint_dc_energy_fraction; discrepancy_double_feeder_indeterminate_cells,registry
+TableCell,301.0,301,discrepancy_feeder_rule_rural_no_benefit_cells,registry
+TableCell,176.0,176,discrepancy_feeder_rule_rural_robust_cells,registry
+TableCell,3.0,3,format/model constant,enumeration/format/model-defining constant
+TableCell,308.0,308,discrepancy_feeder_rule_suburban_no_benefit_cells,registry
+TableCell,167.0,167,discrepancy_feeder_rule_suburban_robust_cells,registry
+TableCell,5.0,5,format/model constant,enumeration/format/model-defining constant
+TableCell,288.0,288,discrepancy_feeder_rule_urban_no_benefit_cells; joint_cells_per_native_share; joint_native_share_0_all_ac_cells,registry
+TableCell,188.0,188,discrepancy_feeder_rule_urban_robust_cells,registry
+TableCell,4.0,4,format/model constant,enumeration/format/model-defining constant
+TableCell,0.0,0.0%,format/model constant,enumeration/format/model-defining constant
+TableCell,0.0,0.0%,format/model constant,enumeration/format/model-defining constant
+TableCell,17.1,17.1%,ablation_baseline_mean_dc_bus_fraction; conductor_baseline_4ac_3dc_mean_dc_bus_fraction; conductor_bound_3ac_2dc_mean_dc_bus_fraction,registry
+TableCell,-9.6,-9.6%,ablation_baseline_mean_loss_change_pct; ablation_no_capacity_regularizer_mean_loss_change_pct; conductor_baseline_4ac_3dc_mean_loss_change_pct,registry
+TableCell,0.2,0.2%,ablation_baseline_mean_dc_bus_fraction; ablation_no_capacity_regularizer_architecture_change_pct; ablation_no_capacity_regularizer_mean_dc_bus_fraction,registry
+TableCell,3.8,3.8%,ablation_no_capacity_regularizer_boundary_change_pct,registry
+TableCell,17.3,17.3%,ablation_no_capacity_regularizer_mean_dc_bus_fraction; performance_factorial_scenario_runtime_s,registry
+TableCell,-9.6,-9.6%,ablation_baseline_mean_loss_change_pct; ablation_no_capacity_regularizer_mean_loss_change_pct; conductor_baseline_4ac_3dc_mean_loss_change_pct,registry
+TableCell,5.1,5.1%,ablation_no_standby_loss_architecture_change_pct; conductor_parity_4ac_4dc_mean_material_index,registry
+TableCell,24.9,24.9%,ablation_no_standby_loss_boundary_change_pct,registry
+TableCell,21.8,21.8%,ablation_no_standby_loss_mean_dc_bus_fraction,registry
+TableCell,-15.0,-15.0%,ablation_no_standby_loss_mean_loss_change_pct,registry
+TableCell,41.2,41.2%,ablation_no_boundary_efficiency_loss_architecture_change_pct,registry
+TableCell,64.7,64.7%,ablation_no_boundary_efficiency_loss_boundary_change_pct,registry
+TableCell,44.6,44.6%,ablation_no_boundary_efficiency_loss_mean_dc_bus_fraction,registry
+TableCell,-42.6,-42.6%,ablation_no_boundary_efficiency_loss_mean_loss_change_pct,registry
+TableCell,37.7,37.7%,ablation_no_endpoint_mismatch_loss_architecture_change_pct; ablation_no_endpoint_mismatch_loss_boundary_change_pct,registry
+TableCell,37.7,37.7%,ablation_no_endpoint_mismatch_loss_architecture_change_pct; ablation_no_endpoint_mismatch_loss_boundary_change_pct,registry
+TableCell,0.0,0.0%,format/model constant,enumeration/format/model-defining constant
+TableCell,0.0,0.0%,format/model constant,enumeration/format/model-defining constant
+TableCell,43.1,43.1%,ablation_no_boundary_electrical_loss_architecture_change_pct,registry
+TableCell,70.6,70.6%,ablation_no_boundary_electrical_loss_boundary_change_pct,registry
+TableCell,49.8,49.8%,ablation_no_boundary_electrical_loss_mean_dc_bus_fraction,registry
+TableCell,-70.3,-70.3%,ablation_no_boundary_electrical_loss_mean_loss_change_pct,registry
+TableCell,66.6,66.6%,ablation_electrical_ideal_conversion_architecture_change_pct,registry
+TableCell,75.8,75.8%,ablation_electrical_ideal_conversion_boundary_change_pct,registry
+TableCell,42.2,42.2%,ablation_electrical_ideal_conversion_mean_dc_bus_fraction,registry
+TableCell,-29.0,-29.0%,ablation_electrical_ideal_conversion_mean_loss_change_pct,registry
+TableCell,90.0,90.0%,ablation_full_ideal_converter_architecture_change_pct; ablation_full_ideal_converter_boundary_change_pct,registry
+TableCell,90.0,90.0%,ablation_full_ideal_converter_architecture_change_pct; ablation_full_ideal_converter_boundary_change_pct,registry
+TableCell,100.0,100.0%,format/model constant,enumeration/format/model-defining constant
+TableCell,-48.6,-48.6%,ablation_full_ideal_converter_mean_loss_change_pct,registry
+TableCell,0.24,0.24 ms,performance_min_feeder_median_runtime_ms; performance_rural_original_median_runtime_ms,registry
+TableCell,27.0,27,performance_converter_ablation_runtime_s; performance_rural_original_state_evaluations; performance_rural_synthetic_mst_state_evaluations,registry
+TableCell,132.0,132,performance_rural_original_transition_evaluations,registry
+TableCell,0.75,0.75 ms,performance_suburban_original_median_runtime_ms,registry
+TableCell,85.0,85,performance_suburban_original_state_evaluations; performance_suburban_synthetic_mst_state_evaluations,registry
+TableCell,486.0,486,conductor_baseline_4ac_3dc_mean_material_index; performance_suburban_original_transition_evaluations,registry
+TableCell,1.0,1.00 ms,format/model constant,enumeration/format/model-defining constant
+TableCell,115.0,115,performance_urban_original_state_evaluations; performance_urban_synthetic_mst_state_evaluations,registry
+TableCell,642.0,642,performance_urban_original_transition_evaluations,registry
+TableCell,62.29,62.29%,ablation_baseline_all_ac_pct; conductor_baseline_4ac_3dc_all_ac_pct; conductor_bound_3ac_2dc_all_ac_pct,registry
+TableCell,27.71,27.71%,ablation_baseline_hybrid_pct; conductor_baseline_4ac_3dc_hybrid_pct; conductor_bound_3ac_2dc_hybrid_pct,registry
+TableCell,10.0,10.00%,format/model constant,enumeration/format/model-defining constant
+TableCell,-9.582,-9.582%,ablation_baseline_mean_loss_change_pct; conductor_baseline_4ac_3dc_mean_loss_change_pct; conductor_parity_3ac_3dc_mean_loss_change_pct,registry
+TableCell,62.29,62.29%,ablation_baseline_all_ac_pct; conductor_baseline_4ac_3dc_all_ac_pct; conductor_bound_3ac_2dc_all_ac_pct,registry
+TableCell,27.71,27.71%,ablation_baseline_hybrid_pct; conductor_baseline_4ac_3dc_hybrid_pct; conductor_bound_3ac_2dc_hybrid_pct,registry
+TableCell,10.0,10.00%,format/model constant,enumeration/format/model-defining constant
+TableCell,-9.582,-9.582%,ablation_baseline_mean_loss_change_pct; conductor_baseline_4ac_3dc_mean_loss_change_pct; conductor_parity_3ac_3dc_mean_loss_change_pct,registry
+TableCell,62.29,62.29%,ablation_baseline_all_ac_pct; conductor_baseline_4ac_3dc_all_ac_pct; conductor_bound_3ac_2dc_all_ac_pct,registry
+TableCell,27.71,27.71%,ablation_baseline_hybrid_pct; conductor_baseline_4ac_3dc_hybrid_pct; conductor_bound_3ac_2dc_hybrid_pct,registry
+TableCell,10.0,10.00%,format/model constant,enumeration/format/model-defining constant
+TableCell,-9.582,-9.582%,ablation_baseline_mean_loss_change_pct; conductor_baseline_4ac_3dc_mean_loss_change_pct; conductor_parity_3ac_3dc_mean_loss_change_pct,registry
+TableCell,62.29,62.29%,ablation_baseline_all_ac_pct; conductor_baseline_4ac_3dc_all_ac_pct; conductor_bound_3ac_2dc_all_ac_pct,registry
+TableCell,27.71,27.71%,ablation_baseline_hybrid_pct; conductor_baseline_4ac_3dc_hybrid_pct; conductor_bound_3ac_2dc_hybrid_pct,registry
+TableCell,10.0,10.00%,format/model constant,enumeration/format/model-defining constant
+TableCell,-9.583,-9.583%,conductor_bound_3ac_2dc_mean_loss_change_pct; conductor_bound_4ac_2dc_mean_loss_change_pct,registry
+TableCell,62.29,62.29%,ablation_baseline_all_ac_pct; conductor_baseline_4ac_3dc_all_ac_pct; conductor_bound_3ac_2dc_all_ac_pct,registry
+TableCell,27.71,27.71%,ablation_baseline_hybrid_pct; conductor_baseline_4ac_3dc_hybrid_pct; conductor_bound_3ac_2dc_hybrid_pct,registry
+TableCell,10.0,10.00%,format/model constant,enumeration/format/model-defining constant
+TableCell,-9.583,-9.583%,conductor_bound_3ac_2dc_mean_loss_change_pct; conductor_bound_4ac_2dc_mean_loss_change_pct,registry

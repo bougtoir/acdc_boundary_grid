@@ -1,0 +1,11 @@
+gate,requirement,evidence,verdict
+G1,Baseline recoverable,branch devin/1792225898-tsg-adversarial-review + qc/baseline_manifest_adversarial.txt with commit 71ddbb22d and SHA-256s,PASS
+G2,No forbidden hardcoding,qc/numeric_literal_inventory.csv + qc/hardcode_audit.md + 0 unmatched DOCX tokens in claim_to_source_ledger.csv; B1/B2 literals eliminated,PASS
+G3,No silent fallback,no cached-result reads found in pipeline/main (code review); _build_pdf deletes stale PDF,PASS
+G4,Public data/code regenerate all outputs,make acquire -> pipeline full run regenerated every artifact; qc/reproduction_audit.md,PASS
+G5,Single canonical results across manuscript/figures/tables/cover letter,all consume results/manuscript_values.csv; central values bit-identical to baseline,PASS
+G6,Claims <= validation,discrepancy labels stated as screening heuristic; snapshot basis added; conductor-count asymmetry disclosed as unresolved,PASS
+G7,Hostile findings resolved or disclosed,B1-B5+M1-M4 fixed; B6 and M5 disclosed; qc/adversarial_review_after.md,PASS
+G8,Native OMML equations no full-width chars format+citation order,make qc format_and_language_audit PASS (equations>=2 150-200 abstract 3-10 index terms),PASS
+G9,DOCX visually rendered no clipping/overflow,all 8 PDF pages inspected; fixed table layout; previously clipped Tables V/VI/VII/VIII/IX now render all columns,PASS
+G10,Single coherent version in ZIP,deterministic ZIP rebuilt after all fixes; qc dir bundles both review rounds,PASS

@@ -1,0 +1,35 @@
+# Qualitative prior-art coding for the novelty matrix.
+# PROVENANCE: these 0/1 flags are manual qualitative judgments by the authors
+# against the cited full texts — NOT computed results. They are stored here as
+# declared configuration so that results/novelty_matrix.csv is generated from a
+# single source of truth rather than embedded literals in the pipeline code.
+columns:
+  - endogenous_ac_dc
+  - converter_placement
+  - topology
+  - conductor_design
+  - temporal_der
+  - matched_attribution
+  - transition_map
+studies:
+  - study: "Ahmed et al. (2016)"
+    doi: "10.1109/TSG.2016.2608508"
+    flags: [1, 1, 1, 0, 0, 0, 0]
+  - study: "Lotfi and Khodaei (2017)"
+    doi: "10.1016/j.energy.2016.12.015"
+    flags: [1, 1, 1, 0, 1, 1, 0]
+  - study: "Wu et al. (2019)"
+    doi: "10.3390/en12091751"
+    flags: [1, 1, 1, 0, 1, 0, 0]
+  - study: "Zhang et al. (2022)"
+    doi: "10.1109/TSG.2021.3102615"
+    flags: [1, 1, 1, 0, 1, 0, 1]
+  - study: "de Barros et al. (2023)"
+    doi: "10.1109/TPWRD.2023.3277089"
+    flags: [1, 1, 1, 1, 0, 0, 0]
+  - study: "Wang et al. (2022)"
+    doi: "10.1016/j.apenergy.2022.119438"
+    flags: [1, 1, 1, 1, 1, 0, 1]
+  - study: "This study"
+    doi: ""
+    flags: [1, 1, 1, 1, 1, 1, 1]

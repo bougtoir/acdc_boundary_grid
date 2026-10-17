@@ -1,0 +1,2 @@
+total_result_rows,design_cases,joint_optimization_rows,spatial_seed_values,joint_rows_in_repeated_outcome_groups,joint_unique_outcome_rows_excluding_seed,interpretation
+7200,5,1440,3,733,990,Design-grid frequencies and frozen spatial allocations; not independent real-world replications or probabilities.

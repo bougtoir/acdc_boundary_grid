@@ -1,0 +1,9 @@
+baseline commit: fa0d4f0cabb7b99a227ef6480045a91329ee88c9
+branch: devin/1792225898-tsg-adversarial-review
+timestamp_utc: 2026-10-17T08:59:17Z
+
+ec9231ca36644a8c863dda8b2c5d8b4e9946cb4147fc7d02b579f358688835d5  results/scenario_results.csv
+e1c404625f85769bb196f4b75f1f7d81d71afab01947b709925b684df483af59  results/central_decomposition.csv
+af4717f3128eb46bc367bd2d0a7105bdca06ff69048280c1d6ae5293550ea717  results/phase_diagram.csv
+299b424de0da2f0293ec911715b9ce47700c4042994d2dfd9c99ae58f292ad9f  results/manuscript_values.csv
+21f6babbacb3c1e58bd1f7de9524a8e5090160458183194b268a904ec0f460bd  configs/analysis_plan.yaml

@@ -1,0 +1,20 @@
+# Conductor-Accounting Sensitivity
+
+Bookkeeping-only scenarios: the installed-conductor proxy enters
+material_index but not resistance, ampacity, voltage drop, or
+capacity. Physical I^2R wire counts (3-phase AC, 2-pole DC) are
+unchanged in every scenario.
+
+```csv
+conductor_scenario,ac_conductor_count,dc_conductor_count,sensitivity_class,cells,all_ac_pct,hybrid_pct,root_dc_pct,architecture_change_pct,boundary_change_pct,mean_dc_bus_fraction,mean_dc_energy_fraction,mean_loss_change_pct,median_loss_change_pct,q05_loss_change_pct,q95_loss_change_pct,mean_objective,mean_material_index
+baseline_4ac_3dc,4.0,3.0,baseline,1440,62.291666666666664,27.708333333333336,10.0,0.0,0.0,0.171035293897136,0.18605398258884828,-9.582444426062507,0.0,-46.6278266467613,0.0,7635.771993788165,4.863541599020608
+bound_3ac_2dc,3.0,2.0,asymmetric_bound,1440,62.291666666666664,27.708333333333336,10.0,0.0,0.0,0.171035293897136,0.18605398258884828,-9.582613263160367,0.0,-46.63006345629432,0.0,7631.935834598179,3.6574556512944834
+bound_4ac_2dc,4.0,2.0,asymmetric_bound,1440,62.291666666666664,27.708333333333336,10.0,0.0,0.0,0.171035293897136,0.18605398258884828,-9.582759640578198,0.0,-46.627935511707555,0.0,7635.140702770695,4.66743577547266
+parity_3ac_3dc,3.0,3.0,symmetric_physical,1440,62.291666666666664,27.708333333333336,10.0,0.0,0.0,0.171035293897136,0.18605398258884828,-9.58229804247467,0.0,-46.62995458764754,0.0,7632.567125615648,3.853561474842433
+parity_4ac_4dc,4.0,4.0,symmetric_accounting_only,1440,62.291666666666664,27.708333333333336,10.0,0.0,0.0,0.171035293897136,0.18605398258884828,-9.58185367230505,0.0,-46.627457491054805,0.0,7636.387763645389,5.050845277231174
+```
+
+Primary contrast: paired physical-loss change of joint hybrid versus
+matched conductor-optimized AC across all factorial cells, plus
+architecture-change counts relative to the baseline counts (4 AC /
+3 DC).

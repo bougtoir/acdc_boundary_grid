@@ -1,0 +1,70 @@
+FINAL HANDOFF — ADVERSARIAL REVIEW ROUND
+=========================================
+
+Branch: devin/1792225898-tsg-adversarial-review
+Baseline checkpoint: qc/baseline_manifest_adversarial.txt (commit 71ddbb22d)
+
+COMMANDS EXECUTED (in order)
+  make acquire
+  python qc/numeric_literal_scan.py
+  python qc/claim_lineage_check.py
+  make lint / make test (27 pass)
+  python -m acdc_boundary.pipeline   (full regeneration, twice)
+  pdftoppm -png -r 80 <pdf> qc/rendered_pages/page   (visual inspection)
+  make qc
+
+PRINCIPAL RESULTS — UNCHANGED AND VERIFIED
+  mean_hybrid_vs_ac_loss_change_pct = -11.173389291054042%
+  mean_conductor_effect_pct         = -6.174442543209833%
+  scenario cells 7200, joint cells 1440
+  all-AC 62.29% / hybrid 27.71% / root-DC 10% of joint cells
+  pandapower discrepancy median 1.4082%, max stress 2.5913%
+  DP exactness max |objective error| 5.68e-14
+  paired loss-change median 0.00%, q05 -46.63%, q95 0.00%
+  scenario_results/central_decomposition/phase_diagram CSVs are
+  SHA-256-identical to the pre-review baseline run.
+
+CHANGES MADE THIS ROUND
+  model.py     : _edge_choice single-eval per scale; evaluate() accepts and
+                 uses design.conductor_scales (refactor, zero outcome change)
+  pipeline.py  : novelty matrix now sourced from configs/novelty_coding.yaml
+                 (manual qualitative coding labeled); EV summary scalars
+                 (ev_records_valid, ev_median_session_energy_kwh,
+                 ev_p95_session_power_kw) added to registry
+  manuscript.py: all table rows/abstract counts derived from
+                 analysis_plan.yaml + registry (was hardcoded literals);
+                 Table IX renders all 8 ablations; fixed table layout with
+                 explicit column widths — previously clipped columns restored;
+                 bipolar +-375 V DC drop convention stated; peak-snapshot
+                 validation basis stated; EV dataset stats cited in Methods
+  qc.py        : final_hostile_review_revision.md regenerated from
+                 adversarial_review_after.md; new audit files added to ZIP
+  tests/test_adversarial.py: 13 new metamorphic/property tests
+  configs/novelty_coding.yaml: new (declared qualitative coding)
+
+REVIEWER VERDICTS (pre-fix) -> disposition
+  TSG associate editor        : major revision -> all items resolved/disclosed
+  AC/DC power engineer        : major revision -> B3,B4 fixed; B6 disclosed
+  optimization specialist     : minor revision -> M3,M4 fixed
+  validation specialist       : minor revision -> B5 fixed; screening framing kept
+  integrity auditor           : major revision -> B1,B2,M1,M2 fixed
+
+UNRESOLVED (disclosed, not hidden)
+  - conductor-count regularizer asymmetry (4 AC vs 3 DC conductors)
+  - hybrid converter fidelity (bidirectional dispatch, unbalance, harmonics,
+    protection, grounding, reliability) outside validated scope
+  - hybrid-side OPF validation absent (all-AC snapshot only)
+  - human metadata placeholders (authors/affiliations/ORCID/funding/COI)
+
+GATES: see qc/final_gate_matrix.csv — G1..G10 PASS.
+
+PAGE COUNT: 8 pages (limit 10)
+
+KEY ARTIFACTS
+  manuscript/build/acdc_boundary_tsg.docx
+  submission/build/tsg_submission_package/acdc_boundary_tsg.pdf
+  submission/build/tsg_submission_package.zip
+  qc/adversarial_review_before.md / adversarial_review_after.md
+  qc/numeric_literal_inventory.csv / hardcode_audit.md
+  qc/claim_to_source_ledger.csv / reproduction_audit.md
+  qc/data_text_figure_consistency.md / final_gate_matrix.csv
